@@ -1,0 +1,20 @@
+<EXPLANATION>
+I have some prompts along with their corresponding accuracies.
+The prompts are arranged in ascending order based on their accuracy, where higher accuracy indicate better quality.
+</EXPLANATION>
+
+<PROMPTS>
+{prompt_scores}
+</PROMPTS>
+
+Each prompt was used together with an image that depicts a math problem.
+
+<TASK>
+Write a new prompt that will achieve an accuracy as high as possible and that is different from the old ones.
+</TASK>
+
+<RULES>
+- It is very important that the new prompt is distinct from ALL the old ones!
+- Write your text in square brackets. Use only plain text for the prompt text and do not add any markdown (i.e. no hashtags, backticks, quotes, etc).
+- Use common techniques (chain of thought, etc) to try to improve the prompt.
+</RULES>
