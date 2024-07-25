@@ -1,0 +1,1746 @@
+pid,question,answer,model_response,review_response,is_correct,duration,token_usage
+643,"As shown in the figure, CD is the diameter of ⊙O, chord DE ∥ OA, if the degree of ∠D is 50.0, then the degree of ∠C is ()",25°,"Here's how to solve the problem:
+
+**1. Understand the Properties**
+
+* **Inscribed Angle Theorem:** An inscribed angle's measure is half the measure of its intercepted arc.
+* **Central Angle Theorem:** A central angle's measure is equal to the measure of its intercepted arc.
+* **Parallel Lines:** When parallel lines are intersected by a transversal, corresponding angles are equal.
+
+**2. Apply the Properties**
+
+* **Angle D:** Since CD is a diameter, ∠D intercepts a semicircle, which has a measure of 180°.  Therefore, ∠D = 1/2 * 180° = 90°.
+* **Angle AOD:**  Since ∠D = 90°, and ∠D and ∠AOD are supplementary angles, ∠AOD = 180° - 90° = 90°.
+* **Angle AOE:**  Because DE || OA, ∠AOE and ∠DEO are corresponding angles and therefore equal.  So, ∠AOE = ∠DEO = 50°.
+* **Angle AOC:**  Since ∠AOD = 90° and ∠AOE = 50°, ∠AOC = 90° + 50° = 140°.
+* **Angle C:**  ∠C intercepts the same arc as ∠AOC, so ∠C = 1/2 * ∠AOC = 1/2 * 140° = 70°.
+
+**Therefore, the degree of ∠C is 70°.** 
+",False,0,3.744511842727661,661.0
+665,Find $h$ in the triangle.,8,"This is a right triangle, and we know one angle and one side. We can use the trigonometric ratios to find the missing side.
+
+* **SOH CAH TOA**
+
+* **SOH** stands for **S**ine = **O**pposite / **H**ypotenuse
+* **CAH** stands for **C**osine = **A**djacent / **H**ypotenuse
+* **TOA** stands for **T**angent = **O**pposite / **A**djacent
+
+In this case, we know the adjacent side (4) and we want to find the hypotenuse (h).  We can use the cosine function:
+
+* cos(60°) = Adjacent / Hypotenuse
+* cos(60°) = 4 / h
+
+We know that cos(60°) = 1/2.  So:
+
+* 1/2 = 4 / h
+
+To solve for h, we can cross-multiply:
+
+* h = 4 * 2
+* h = 8
+
+Therefore, the length of the hypotenuse (h) is **8**.",True,1,2.9918458461761475,521.0
+887,"As shown in the figure, △ABC is the inscribed triangle of ⊙O. If ∠ABC = 70.0, then the degree of ∠AOC is equal to ()",140°,"The measure of a central angle is twice the measure of an inscribed angle that intercepts the same arc.  Therefore, ∠AOC = 2∠ABC = 2(70°) = **140°**.",True,1,1.4976658821105957,354.0
+318,Find the area of the figure. Round to the nearest tenth if necessary.,2256,"The figure is a trapezoid. The formula for the area of a trapezoid is:
+
+A = (1/2)h(b1 + b2)
+
+where:
+
+* A is the area
+* h is the height
+* b1 and b2 are the lengths of the two bases
+
+In this case:
+
+* h = 48 ft
+* b1 = 41 ft
+* b2 = 53 ft
+
+Substituting these values into the formula, we get:
+
+A = (1/2)(48 ft)(41 ft + 53 ft)
+A = (1/2)(48 ft)(94 ft)
+A = 2256 sq ft
+
+Therefore, the area of the trapezoid is **2256 square feet**.",True,1,2.8668220043182373,454.0
+610,"In the figure above, P, Q, and R lie on the same line. P is the center of the larger circle, and Q is the center of the smaller circle. If the radius of the larger circle is 4, what is the radius of the smaller circle?",2,"The radius of the smaller circle is half the radius of the larger circle.  Since the radius of the larger circle is 4, the radius of the smaller circle is 4/2 = **2**.  The answer is (B).",True,1,1.7079989910125732,374.0
+198,Calculate the missing value.,1,"The missing value is 2.
+
+The pattern is that the top number is the sum of the bottom two numbers. 
+
+* 6 + 2 = 8
+* 1 + 3 = 4
+* 2 + 5 = 7
+* 1 + 0 = 1
+
+Therefore, the missing value is 2 because 1 + 1 = 2.",False,0,2.4256629943847656,358.0
+634,如图，直线AB，CD交于点O．射线OE平分∠BOC，若∠AOD＝70°，则∠AOE等于（）,145°,"The problem asks for the measure of angle AOE.  We know that angle AOD is 70 degrees, and that OE bisects angle BOC.  This means that angle BOE is equal to angle COE.  Since angles AOD and BOC are supplementary (they add up to 180 degrees), we can find the measure of angle BOC:
+
+180 degrees - 70 degrees = 110 degrees
+
+Since OE bisects angle BOC, we can find the measure of angle BOE:
+
+110 degrees / 2 = 55 degrees
+
+Finally, since angles AOE and BOE are supplementary, we can find the measure of angle AOE:
+
+180 degrees - 55 degrees = 125 degrees
+
+Therefore, angle AOE is equal to 125 degrees.",False,0,2.35748291015625,480.0
+294,"In Fig. 21-25, the particles have charges $q_1=-q_2=100 \mathrm{nC}$ and $q_3=-q_4=200 \mathrm{nC}$, and distance $a=$ $5.0 \mathrm{~cm}$. What is the $x$ component of the net electrostatic force on particle 3?",0.17,"The problem asks for the x-component of the net electrostatic force on particle 3.  To solve this, we need to consider the forces exerted on particle 3 by each of the other particles.
+
+**1. Forces due to charges 1 and 2:**
+
+* **Force due to charge 1:**  The force between charges 1 and 3 is attractive (opposite charges) and acts along the diagonal of the square.  We can resolve this force into its x and y components. The x-component of this force will be directed towards the right.
+* **Force due to charge 2:** The force between charges 2 and 3 is repulsive (same charges) and acts along the horizontal line connecting them. This force is entirely in the x-direction and is directed towards the left.
+
+**2. Force due to charge 4:**
+
+* **Force due to charge 4:** The force between charges 4 and 3 is repulsive (same charges) and acts along the vertical line connecting them. This force has no x-component.
+
+**3. Calculating the x-component of the net force:**
+
+* **Force due to charge 1:**  The x-component of the force due to charge 1 can be calculated using trigonometry. The angle between the diagonal and the horizontal is 45 degrees. Therefore, the x-component of the force due to charge 1 is (Force due to charge 1) * cos(45 degrees).
+* **Force due to charge 2:** This force is entirely in the x-direction.
+* **Force due to charge 4:** This force has no x-component.
+
+**4. Adding the x-components:**
+
+The net x-component of the force on particle 3 is the sum of the x-components of the forces due to charges 1 and 2.
+
+**5. Using Coulomb's Law:**
+
+To calculate the magnitudes of the forces, we need to use Coulomb's Law:
+
+F = k * |q1 * q2| / r^2
+
+where:
+
+* F is the force between two charges
+* k is Coulomb's constant (8.99 x 10^9 N m^2/C^2)
+* q1 and q2 are the magnitudes of the charges
+* r is the distance between the charges
+
+**6. Plugging in the values:**
+
+* Calculate the forces due to charges 1, 2, and 4 using Coulomb's Law.
+* Calculate the x-component of the force due to charge 1.
+* Add the x-components of the forces due to charges 1 and 2 to find the net x-component of the force on particle 3.
+
+**Note:** The direction of the net force will depend on the relative magnitudes of the forces due to charges 1 and 2. If the force due to charge 1 is greater than the force due to charge 2, the net force will be directed towards the right. If the force due to charge 2 is greater than the force due to charge 1, the net force will be directed towards the left.
+",False,0,6.040831804275513,1013.0
+633,"In the figure, $m∠1 = 123$. Find the measure of $\angle 14$.",57,"Angles 1 and 14 are corresponding angles, which means they have the same measure. Therefore, $m\angle 14 = m\angle 1 = \boxed{123^\circ}$.",False,0,1.6450419425964355,337.0
+897,Use a calculator to find the measure of $∠J$ to the nearest degree.,40,"The problem asks us to find the measure of angle J in a right triangle. We know the lengths of the hypotenuse (14) and one leg (9).  We can use the cosine function to find the measure of angle J:
+
+* **cos(J) = adjacent side / hypotenuse**
+
+In this case:
+
+* **cos(J) = 9 / 14**
+
+To find the measure of angle J, we need to use the inverse cosine function (also known as arccosine), denoted as cos⁻¹:
+
+* **J = cos⁻¹(9/14)**
+
+Using a calculator, we find:
+
+* **J ≈ 49.4°**
+
+Therefore, the measure of angle J is approximately **49°** to the nearest degree. 
+",False,0,2.474355936050415,457.0
+132,如图，在4×4的正方形网格中，每个小正方形的边长均为1，点A，B，C都在格点上，AD⊥BC于D，则AD的长为（）,2,"The problem asks for the length of AD.  We can solve this by using the Pythagorean Theorem.
+
+1. **Find the lengths of AB and BC:**
+   - Count the grid squares to find the lengths of AB and BC.  AB has a length of 4 units, and BC has a length of 3 units.
+
+2. **Apply the Pythagorean Theorem:**
+   - The Pythagorean Theorem states that in a right triangle, the square of the hypotenuse (the side opposite the right angle) is equal to the sum of the squares of the other two sides.  In this case, AB is the hypotenuse, and AD and BD are the other two sides.
+   - So, we have: AB² = AD² + BD²
+
+3. **Solve for AD:**
+   - Substitute the known values: 4² = AD² + BD²
+   - We need to find BD.  Notice that triangle BCD is also a right triangle.  We can use the Pythagorean Theorem again: BC² = BD² + CD²
+   - Substitute the known values: 3² = BD² + 1²
+   - Solve for BD: BD² = 3² - 1² = 8, so BD = √8 = 2√2
+   - Now, substitute BD back into the equation for AB: 4² = AD² + (2√2)²
+   - Simplify: 16 = AD² + 8
+   - Solve for AD: AD² = 16 - 8 = 8, so AD = √8 = 2√2
+
+Therefore, the length of AD is **2√2**.",False,0,3.821655035018921,666.0
+549,"As shown in the figure, PA and PB are tangent to ⊙O to A and B respectively. Point C and point D are the moving points on line segments PA and PB, and CD always remains tangent to circle O. If PA = 8.0, then perimeter of △PCD is ()",16,"Here's how to solve the problem:
+
+**Understanding the Geometry**
+
+* **Tangents and Radii:**  When a line is tangent to a circle, it forms a right angle with the radius drawn to the point of tangency. This means ∠OAC and ∠OBD are right angles.
+* **Congruent Tangents:** Tangents drawn from an external point to a circle are congruent. Therefore, PA = PB = 8.0.
+* **Similar Triangles:**  Triangles OAC and OBD are similar because they share two congruent angles (∠OAC = ∠OBD = 90° and ∠COA = ∠DOB).
+
+**Solving the Problem**
+
+1. **Find OC and OD:** Since ∠OAC and ∠OBD are right angles, we can use the Pythagorean theorem. Let the radius of the circle be r.  
+   * In triangle OAC:  OC² = OA² + AC² = r² + AC²
+   * In triangle OBD:  OD² = OB² + BD² = r² + BD²
+
+2. **Use Similar Triangles:**  Because triangles OAC and OBD are similar, the ratio of their corresponding sides is equal:
+   * AC/BD = OC/OD
+
+3. **Express the Perimeter of △PCD:**
+   * Perimeter of △PCD = PC + CD + PD = (PA - AC) + CD + (PB - BD) = 8 - AC + CD + 8 - BD = 16 - (AC + BD) + CD
+
+4. **Substitute and Simplify:**
+   * From the similar triangles, we know AC/BD = OC/OD.  Let's substitute OC² and OD² from step 1:
+      * AC/BD = √(r² + AC²)/√(r² + BD²)
+   * Square both sides: AC²/BD² = (r² + AC²)/(r² + BD²)
+   * Cross-multiply and simplify: AC²(r² + BD²) = BD²(r² + AC²)
+   * Expand: AC²r² + AC²BD² = BD²r² + BD²AC²
+   * Cancel out AC²BD² and BD²AC²: AC²r² = BD²r²
+   * Divide both sides by r²: AC² = BD²
+   * Take the square root of both sides: AC = BD
+
+5. **Final Calculation:**
+   * Substitute AC = BD into the perimeter equation from step 3:
+      * Perimeter of △PCD = 16 - (AC + BD) + CD = 16 - 2AC + CD
+   * Since CD is a tangent to the circle, it's perpendicular to the radius at the point of tangency.  Therefore, CD is the shortest distance between point C and point D, making it the shortest possible length for the third side of △PCD. 
+   * The perimeter of △PCD will be minimized when CD is as small as possible.  This occurs when C and D are very close to A and B, respectively.  In this case, AC and BD are very small, and the perimeter of △PCD is approximately 16.
+
+**Therefore, the perimeter of △PCD is approximately 16.** 
+",True,1,6.318636894226074,1044.0
+94,如图，D为△ABC内一点，CD平分∠ACB，BD⊥CD，∠A＝∠ABD，若∠DBC＝54°，则∠A的度数为（）,27°,"**1. Find ∠ACD:**
+
+* Since CD bisects ∠ACB, we have ∠ACD = ∠BCD.
+* We know ∠DBC = 54°, and since BD⊥CD, we have ∠BDC = 90°.
+* In triangle BCD, the angles add up to 180°, so ∠ACD = ∠BCD = (180° - 90° - 54°) / 2 = 18°.
+
+**2. Find ∠ADB:**
+
+* In triangle BDC, we have ∠BDC = 90° and ∠DBC = 54°, so ∠CDB = 180° - 90° - 54° = 36°.
+* Since ∠ADB is supplementary to ∠CDB, we have ∠ADB = 180° - 36° = 144°.
+
+**3. Find ∠ABD:**
+
+* We know ∠A = ∠ABD.
+* In triangle ABD, the angles add up to 180°, so ∠ABD = (180° - 144°) / 2 = 18°.
+
+**Therefore, ∠A = ∠ABD = 18°.**",False,0,2.886219024658203,593.0
+378,如图，AD是△ABC的中线，E为AD的中点，△ABE的面积为2，则△ABC的面积为（）,8,"The problem asks for the area of triangle ABC, given that the area of triangle ABE is 2.  We know that AD is the median of triangle ABC, and E is the midpoint of AD.
+
+Here's how to solve the problem:
+
+1. **Understanding Medians:** A median of a triangle divides the triangle into two triangles with equal areas. Since AD is the median of triangle ABC, the area of triangle ABD is equal to the area of triangle ACD.
+
+2. **Understanding Midpoints:**  A line segment drawn from the midpoint of one side of a triangle to the opposite vertex divides the triangle into two triangles with equal areas. Since E is the midpoint of AD, the area of triangle ABE is equal to the area of triangle AED.
+
+3. **Putting it Together:** We know the area of triangle ABE is 2. Since the area of triangle ABE is equal to the area of triangle AED, the area of triangle AED is also 2.
+
+4. **Finding the Area of Triangle ABD:** The area of triangle ABD is the sum of the areas of triangles ABE and AED, which is 2 + 2 = 4.
+
+5. **Finding the Area of Triangle ABC:** Since the area of triangle ABD is equal to the area of triangle ACD, the area of triangle ABC is twice the area of triangle ABD, which is 4 * 2 = 8.
+
+Therefore, the area of triangle ABC is **8**.",True,1,3.6122610569000244,600.0
+160,Find x.,12,"This is a right triangle, so we can use the Pythagorean theorem to solve for x. The Pythagorean theorem states that in a right triangle, the square of the hypotenuse (the side opposite the right angle) is equal to the sum of the squares of the other two sides.
+
+In this case, the hypotenuse is 15, and the other two sides are 9 and x. So we can write:
+
+15^2 = 9^2 + x^2
+
+Simplifying:
+
+225 = 81 + x^2
+
+Subtracting 81 from both sides:
+
+144 = x^2
+
+Taking the square root of both sides:
+
+x = 12
+
+Therefore, x = 12.",True,1,2.3728110790252686,432.0
+206,Find the scale factor from $Q$ to $Q'$.,3,"The scale factor is the ratio of corresponding side lengths.  The side length from $Q$ to $C$ is 5, and the side length from $Q'$ to $C$ is 15.  Therefore, the scale factor is $\frac{15}{5} = \boxed{3}$.",True,1,1.9912807941436768,347.0
+776,Find $JQ$ if $Q$ is the incenter of $\triangle JLN$.  Rounded to the nearest hundredth.,18.79,"The incenter of a triangle is the point where the angle bisectors of the triangle intersect.  Since $Q$ is the incenter of $\triangle JLN$, we know that $\overline{JQ}$ bisects $\angle J$.  We can use the Angle Bisector Theorem to find $JQ$.
+
+[asy]
+unitsize(0.6inch);
+pair J,K,L,M,N,P,Q;
+J = (0,1);
+K = (1,1.5);
+L = (2,1.75);
+N = (1,0);
+P = intersectionpoint(J--N,K--L);
+Q = intersectionpoint(J--L,K--N);
+M = intersectionpoint(L--N,K--P);
+draw(J--K--L--cycle);
+draw(J--N--L);
+draw(K--N);
+draw(K--P);
+label(""$J$"",J,NW);
+label(""$K$"",K,N);
+label(""$L$"",L,NE);
+label(""$M$"",M,SE);
+label(""$N$"",N,S);
+label(""$P$"",P,SW);
+label(""$Q$"",Q,NE);
+label(""$16.5$"",(J+N)/2,W);
+label(""$9$"",(M+N)/2,E);
+[/asy]
+
+The Angle Bisector Theorem states that the ratio of the lengths of the two segments that a bisector divides a side into is equal to the ratio of the lengths of the other two sides of the triangle.  In this case, we have:
+
+$$\frac{JQ}{QN} = \frac{JL}{LN}$$
+
+We know that $JL = 16.5$ and $LN = 9 + 16.5 = 25.5$.  We can use the Pythagorean Theorem to find $QN$:
+
+$$QN^2 = QK^2 + KN^2$$
+
+Since $Q$ is the incenter, we know that $QK = QM = 9$.  We can use the Pythagorean Theorem to find $KN$:
+
+$$KN^2 = KL^2 - LN^2 = 25.5^2 - 9^2 = 576$$
+
+Therefore, $KN = 24$.  Substituting these values into the Angle Bisector Theorem, we get:
+
+$$\frac{JQ}{9} = \frac{16.5}{25.5}$$
+
+Solving for $JQ$, we get:
+
+$$JQ = \frac{16.5 \cdot 9}{25.5} \approx \boxed{5.82}$$",False,0,5.624903917312622,876.0
+927,如图，在△ABC中，AB的垂直平分线交AB于点D，交BC于点E，连接AE．若AB＝6，△ACE的周长为13，则△ABC的周长为（）,19,"The problem asks for the perimeter of triangle ABC, given that AB = 6, and the perimeter of triangle ACE is 13.
+
+Here's how to solve it:
+
+1. **Understanding the Properties:**
+   - Since DE is the perpendicular bisector of AB, we know that AD = DB = 3 (half of AB).
+   - The perpendicular bisector also means that AE = BE (because any point on the perpendicular bisector is equidistant from the endpoints of the segment it bisects).
+
+2. **Using the Perimeter Information:**
+   - The perimeter of triangle ACE is AC + CE + AE = 13.
+   - We know AE = BE, so we can rewrite the perimeter as AC + CE + BE = 13.
+
+3. **Finding the Perimeter of Triangle ABC:**
+   - The perimeter of triangle ABC is AB + BC + AC.
+   - We can substitute BC with BE + CE (from the diagram).
+   - Therefore, the perimeter of triangle ABC is AB + BE + CE + AC.
+
+4. **Combining the Information:**
+   - We know AB = 6.
+   - We know AC + CE + BE = 13.
+   - Therefore, the perimeter of triangle ABC is 6 + 13 = 19.
+
+**Answer:** The perimeter of triangle ABC is 19.",True,1,3.273165225982666,610.0
+628,如图，在ABCD中，∠ABC的平分线交AD于点E，∠BCD的平分线交AD于点F，若AB＝3，AD＝4，则EF的长是（）,2,"The problem asks for the length of EF in parallelogram ABCD, given that AB = 3, AD = 4, and BE and CF are angle bisectors.
+
+Here's how to solve it:
+
+1. **Understanding Angle Bisectors:** Since BE bisects ∠ABC, we know that ∠ABE = ∠CBE. Similarly, since CF bisects ∠BCD, we know that ∠BCF = ∠DCF.
+
+2. **Parallel Lines and Alternate Interior Angles:**  Because AB || CD (opposite sides of a parallelogram are parallel), we have:
+   - ∠ABE = ∠CDE (alternate interior angles)
+   - ∠CBE = ∠CDF (alternate interior angles)
+
+3. **Combining Information:** Now we can see that:
+   - ∠ABE = ∠CDE = ∠CBE = ∠CDF
+
+4. **Similar Triangles:**  Triangles ABE and CDE are similar because they have two pairs of equal angles. Similarly, triangles BCF and DCF are similar.
+
+5. **Proportions:** Since the triangles are similar, their corresponding sides are proportional.  Let's use the following proportions:
+   - AE/DE = AB/CD (from triangles ABE and CDE)
+   - BF/DF = BC/CD (from triangles BCF and DCF)
+
+6. **Using Parallelogram Properties:**  In a parallelogram, opposite sides are equal. Therefore, AB = CD and BC = AD.  Substituting these values into the proportions:
+   - AE/DE = 3/4
+   - BF/DF = 4/3
+
+7. **Finding EF:**  Since AE + DE = AD = 4, we can solve for AE and DE:
+   - AE = (3/7) * 4 = 12/7
+   - DE = (4/7) * 4 = 16/7
+
+   Similarly, since BF + DF = AD = 4, we can solve for BF and DF:
+   - BF = (4/7) * 4 = 16/7
+   - DF = (3/7) * 4 = 12/7
+
+   Finally, EF = AE + BF = (12/7) + (16/7) = **28/7 = 4**.
+
+Therefore, the length of EF is **4**. 
+",False,0,5.0419228076934814,830.0
+95,"As shown in the figure, the straight lines AB and CD intersect at point O, OD bisects ∠AOE, ∠BOC = 50.0, then ∠EOB = ()",80°,"Here's how to solve the problem:
+
+**1. Understand the Given Information**
+
+* **Lines intersect:**  Lines AB and CD intersect at point O.
+* **Angle bisector:**  Line OD bisects ∠AOE, meaning it divides ∠AOE into two equal angles.
+* **Known angle:** ∠BOC = 50°.
+
+**2. Use Angle Relationships**
+
+* **Vertical angles:** ∠BOC and ∠AOD are vertical angles, meaning they are equal. Therefore, ∠AOD = 50°.
+* **Linear pairs:** ∠AOD and ∠DOE are a linear pair, meaning they add up to 180°.  So, ∠DOE = 180° - ∠AOD = 180° - 50° = 130°.
+* **Angle bisector:** Since OD bisects ∠AOE, we have ∠AOD = ∠DOE = 130°.
+
+**3. Find ∠EOB**
+
+* **Linear pairs:** ∠DOE and ∠EOB are a linear pair. Therefore, ∠EOB = 180° - ∠DOE = 180° - 130° = 50°.
+
+**Answer:** ∠EOB = 50° 
+",False,0,3.0675151348114014,605.0
+489,"For trapezoid ABCD shown above, AB = 24, AD = 23, and BC = 16. What is the length of segment CD?",25,"1. **Draw a perpendicular line from point C to line AD.** This line will be parallel to AB and will create a right triangle.
+
+2. **Label the point where the perpendicular line intersects AD as E.**
+
+3. **Notice that AE = AB = 24.** This is because AB and AE are both parallel and equal in length.
+
+4. **Find the length of CE.** Since BC = 16 and BE = AB = 24, then CE = BC - BE = 16 - 24 = -8.  Since length cannot be negative, we know that CE = 8.
+
+5. **Use the Pythagorean theorem to find the length of CD.**  We know that CE = 8 and DE = AD - AE = 23 - 24 = -1. Since length cannot be negative, we know that DE = 1.  Therefore, CD = √(CE² + DE²) = √(8² + 1²) = √65.
+
+**Therefore, the length of segment CD is √65.**",False,0,2.8003058433532715,528.0
+119,"As shown in the figure, P is a point outside ⊙O, PA and PB intersect ⊙O at two points C and D respectively. It is known that the central angles of ⁀AB and ⁀CD are 90.0 and 50.0 respectively, then ∠P = ()",20°,"Here's how to solve the problem:
+
+**Understanding the Concepts**
+
+* **Central Angle:** An angle formed by two radii of a circle with its vertex at the center of the circle.
+* **Inscribed Angle:** An angle formed by two chords of a circle with its vertex on the circle.
+* **Inscribed Angle Theorem:** The measure of an inscribed angle is half the measure of its intercepted arc.
+
+**Solving the Problem**
+
+1. **Find the measure of arc AB:** Since the central angle of arc AB is 90 degrees, the measure of arc AB is also 90 degrees.
+
+2. **Find the measure of arc CD:** Since the central angle of arc CD is 50 degrees, the measure of arc CD is also 50 degrees.
+
+3. **Find the measure of arc AC:**  The entire circle has 360 degrees.  Therefore, arc AC measures 360 - 90 - 50 = 220 degrees.
+
+4. **Find the measure of angle P:**  Angle P is an inscribed angle that intercepts arc AC.  According to the Inscribed Angle Theorem, the measure of angle P is half the measure of arc AC.  Therefore, ∠P = 220/2 = 110 degrees.
+
+**Answer:** ∠P = 110 degrees. 
+",False,0,3.553884267807007,626.0
+82,A square is inscribed in a circle of area 18$\pi$ square units. Find the length of a side of the square.,6,"Here's how to solve the problem:
+
+**1. Find the radius of the circle:**
+
+* The area of a circle is given by the formula: Area = πr² 
+* We know the area is 18π square units.  
+* Substitute and solve for the radius (r):
+   18π = πr²
+   18 = r²
+   r = √18 = 3√2
+
+**2. Relate the radius to the square's diagonal:**
+
+* The diagonal of the square passes through the center of the circle and is equal to the diameter of the circle.
+* The diameter is twice the radius:  Diameter = 2 * 3√2 = 6√2
+
+**3. Find the side length of the square:**
+
+* The diagonal of a square divides it into two 45-45-90 right triangles.
+* In a 45-45-90 triangle, the hypotenuse (the diagonal of the square) is √2 times the length of a leg (the side of the square).
+* Let 's' represent the side length of the square:
+   6√2 = s√2
+   s = 6
+
+**Therefore, the length of a side of the square is 6 units.** 
+",True,1,3.2012689113616943,578.0
+59,"As shown in the figure, AB is the diameter of ⊙O, CD is the chord of ⊙O, ∠ADC = 26.0, then the degree of ∠CAB is ()",64°,"Here's how to solve the problem:
+
+**Understanding the Concepts**
+
+* **Inscribed Angle Theorem:** An inscribed angle (an angle formed by two chords with its vertex on the circle) is half the measure of its intercepted arc.
+* **Central Angle Theorem:** A central angle (an angle formed by two radii with its vertex at the center of the circle) is equal in measure to its intercepted arc.
+
+**Solving the Problem**
+
+1. **Identify the Inscribed Angle:**  ∠ADC is an inscribed angle that intercepts arc AC.
+
+2. **Find the Measure of Arc AC:** Since ∠ADC = 26°, the measure of arc AC is twice that, or 2 * 26° = 52°.
+
+3. **Identify the Central Angle:** ∠AOC is a central angle that intercepts arc AC.
+
+4. **Find the Measure of ∠AOC:**  Since ∠AOC intercepts the same arc as ∠ADC, its measure is equal to the measure of arc AC, which is 52°.
+
+5. **Identify the Inscribed Angle:** ∠CAB is an inscribed angle that intercepts arc CB.
+
+6. **Find the Measure of Arc CB:**  Since AB is a diameter, arc CB is a semicircle, and its measure is 180°.
+
+7. **Find the Measure of ∠CAB:**  ∠CAB is half the measure of arc CB, so ∠CAB = 180° / 2 = 90°.
+
+**Therefore, the degree of ∠CAB is 90°.** 
+",False,0,3.780484914779663,646.0
+220,"As shown in the figure, ⊙O is the circumscribed circle of the quadrilateral ABCD, if ∠O = 110.0, then the degree of ∠C is ()",125°,"The measure of a central angle is twice the measure of an inscribed angle that intercepts the same arc.
+
+∠O is a central angle and ∠C is an inscribed angle that intercepts the same arc.
+
+Therefore, ∠C = ∠O / 2 = 110.0 / 2 = 55.0 degrees.
+
+So the answer is 55.0.",False,0,1.8438348770141602,391.0
+947,如图，AB∥CD，BC∥DE，∠A＝45°，∠C＝110°，则∠AED的度数为（）,115°,"The problem asks for the measure of angle AED.  Here's how to solve it:
+
+1. **Identify parallel lines and corresponding angles:**
+   - AB || CD, so ∠A and ∠D are corresponding angles and are equal. Therefore, ∠D = 45°.
+   - BC || DE, so ∠C and ∠AED are corresponding angles and are equal. Therefore, ∠AED = 110°.
+
+2. **Answer:** ∠AED = 110°. 
+",False,0,1.9637868404388428,414.0
+622,如图，在△ABC中，D是BC上的点，且BD＝2，DC＝1，S△ACD＝12，那么S△ABC等于（）,36,"The problem asks for the area of triangle ABC, given that D is a point on BC, BD = 2, DC = 1, and the area of triangle ACD is 12.
+
+Here's how to solve it:
+
+1. **Understand the relationship between areas:** The ratio of the areas of two triangles with the same height is equal to the ratio of their bases.
+
+2. **Apply the relationship:** Since triangles ACD and ABC share the same height (the altitude from A to BC), we can write:
+
+   S△ACD / S△ABC = DC / BC
+
+3. **Substitute known values:** We know S△ACD = 12, DC = 1, and BC = BD + DC = 2 + 1 = 3.
+
+4. **Solve for S△ABC:**
+
+   12 / S△ABC = 1 / 3
+   S△ABC = 12 * 3 = 36
+
+**Therefore, the area of triangle ABC is 36.**",True,1,2.369642734527588,521.0
+320,如图，在△ABC中，∠C＝90°，AB＝13，AC＝5，D、E分别是AC、AB的中点，则DE的长是（）,6,"This problem involves finding the length of a line segment within a right triangle. Here's how to solve it:
+
+**1. Understand the Problem**
+
+* We have a right triangle ABC with a right angle at C.
+* We know the lengths of the hypotenuse (AB = 13) and one leg (AC = 5).
+* D and E are the midpoints of AC and AB, respectively.
+* We need to find the length of DE.
+
+**2. Use the Midpoint Theorem**
+
+The Midpoint Theorem states that the line segment connecting the midpoints of two sides of a triangle is parallel to the third side and half its length.
+
+* Since D is the midpoint of AC and E is the midpoint of AB, DE is parallel to BC and half the length of BC.
+
+**3. Find the Length of BC**
+
+We can use the Pythagorean theorem to find the length of BC:
+
+*  BC² = AB² - AC²
+*  BC² = 13² - 5²
+*  BC² = 144
+*  BC = √144 = 12
+
+**4. Calculate DE**
+
+Since DE is half the length of BC:
+
+* DE = BC / 2
+* DE = 12 / 2
+* DE = 6
+
+**Therefore, the length of DE is 6.** 
+",True,1,3.1317920684814453,604.0
+790,如图，△ABC中，N是BC边上的中点，AM平分∠BAC，BM⊥AM于点M，若AB＝8，MN＝2．则AC的长为（）,12,"The problem asks for the length of AC in triangle ABC, given that N is the midpoint of BC, AM bisects angle BAC, BM is perpendicular to AM, AB = 8, and MN = 2.
+
+Here's how to solve the problem:
+
+1. **Draw a diagram:** Draw a triangle ABC with the given information. Label the points A, B, C, M, and N as described in the problem.
+
+2. **Use the angle bisector theorem:** Since AM bisects angle BAC, we know that AB/AC = BM/MC.
+
+3. **Use the Pythagorean theorem:** In right triangle BMN, we have BM^2 + MN^2 = BN^2. Since N is the midpoint of BC, we know that BN = BC/2.
+
+4. **Solve for BM:** Substitute BN = BC/2 into the Pythagorean theorem equation and solve for BM.
+
+5. **Solve for MC:** Since BM/MC = AB/AC, we can substitute the values we know for AB, BM, and AC to solve for MC.
+
+6. **Solve for AC:** Since BC = BN + NC, we can substitute the values we know for BN and MC to solve for AC.
+
+**Here's the solution in detail:**
+
+1. **Draw a diagram:** [Insert diagram here]
+
+2. **Angle bisector theorem:** AB/AC = BM/MC
+
+3. **Pythagorean theorem:** BM^2 + MN^2 = BN^2
+   Since N is the midpoint of BC, BN = BC/2.
+   Therefore, BM^2 + 2^2 = (BC/2)^2
+
+4. **Solve for BM:**
+   BM^2 = (BC/2)^2 - 4
+   BM = sqrt((BC/2)^2 - 4)
+
+5. **Solve for MC:**
+   BM/MC = AB/AC
+   sqrt((BC/2)^2 - 4) / MC = 8/AC
+   MC = AC * sqrt((BC/2)^2 - 4) / 8
+
+6. **Solve for AC:**
+   BC = BN + NC = BC/2 + MC
+   BC/2 = MC
+   BC/2 = AC * sqrt((BC/2)^2 - 4) / 8
+   AC = 4 * BC / sqrt((BC/2)^2 - 4)
+
+**Therefore, the length of AC is 4 * BC / sqrt((BC/2)^2 - 4).**
+
+**Note:** To get a numerical answer, you need to know the length of BC. The problem only provides the length of AB and MN, so you cannot determine the exact length of AC without additional information.",False,0,5.4810791015625,894.0
+642,"Line AB is tangent to circle O. If AB = 8 and OB = 10, find the diameter of the circle.",12,"Here's how to solve the problem:
+
+* **Understanding the Geometry:**  A tangent line to a circle is perpendicular to the radius drawn to the point of tangency. This means angle OAB is a right angle.
+
+* **Pythagorean Theorem:**  Triangle OAB is a right triangle. We can use the Pythagorean theorem to find the length of OA (the radius of the circle):
+
+   * OA² + AB² = OB²
+   * OA² + 8² = 10²
+   * OA² = 100 - 64 = 36
+   * OA = √36 = 6
+
+* **Diameter:** The diameter of a circle is twice the radius.
+
+   * Diameter = 2 * OA = 2 * 6 = 12
+
+**Therefore, the diameter of circle O is 12.** The correct answer is **E**. 
+",True,1,2.6109299659729004,489.0
+820,"$a=14, b=48,$ and $c=50$ find $cosA$",0.96,"The cosine of an angle in a right triangle is equal to the length of the adjacent side divided by the length of the hypotenuse. In this case, we are looking for cosA, so the adjacent side is b and the hypotenuse is c. 
+
+Therefore, cosA = b/c = 48/50 = 24/25. 
+
+So, cosA = 24/25.",True,1,1.8499648571014404,384.0
+505,"As shown in the figure, in the circle O with a radius of 5.0, the length of the chord AB is 8.0, then the distance from the center O to the chord AB is ()",3,"Here's how to solve the problem:
+
+**1. Visualize the Problem**
+
+Imagine drawing a perpendicular line from the center of the circle (point O) to the chord AB. This line will bisect the chord, creating two right triangles.
+
+**2. Use the Pythagorean Theorem**
+
+* Each right triangle has:
+    * Hypotenuse = radius of the circle (5.0)
+    * One leg = half the length of the chord (8.0 / 2 = 4.0)
+    * The other leg is the distance from the center to the chord (what we want to find).
+
+* Apply the Pythagorean theorem:  a² + b² = c²
+    * a = 4.0 (half the chord)
+    * b = distance from the center to the chord (unknown)
+    * c = 5.0 (radius)
+
+**3. Solve for the Unknown**
+
+* 4.0² + b² = 5.0²
+* 16 + b² = 25
+* b² = 9
+* b = √9 = 3.0
+
+**Answer:** The distance from the center O to the chord AB is 3.0. 
+",True,1,3.154507637023926,577.0
+355,"As shown in the figure, the parallel lines a and b are intercepted by the straight line c. If ∠1 = 50.0, then the degree of ∠2 is ()",130°,"Angles 1 and 2 are corresponding angles. Corresponding angles are equal when two parallel lines are intersected by a transversal. Therefore, ∠2 = ∠1 = 50.0 degrees.",False,0,1.524026870727539,350.0
+712,What is the perimeter of the shape?,9,"The perimeter of a shape is the total length of all its sides.  To find the perimeter of this triangle, we add up the lengths of all three sides:
+
+3 yd + 3 yd + 3 yd = 9 yd
+
+The perimeter of the triangle is 9 yards. 
+",True,1,1.7178928852081299,338.0
+17,如图，在Rt△ABC中，∠ACB＝90°，D是AB的中点，AB＝10，则CD的长为（）,5,"The problem asks for the length of CD in a right triangle ABC where D is the midpoint of AB.  Here's how to solve it:
+
+**1. Understand the Properties**
+
+* **Right Triangle:**  A right triangle has one angle that measures 90 degrees.
+* **Midpoint:** The midpoint of a line segment divides the segment into two equal parts.
+* **Pythagorean Theorem:** In a right triangle, the square of the hypotenuse (the side opposite the right angle) is equal to the sum of the squares of the other two sides.
+
+**2. Apply the Properties**
+
+* **Find AC and BC:** Since D is the midpoint of AB, AD = DB = AB/2 = 10/2 = 5.  We can use the Pythagorean Theorem on triangle ADC to find AC:
+   * AC² + CD² = AD²
+   * AC² + CD² = 5²
+   * AC² = 25 - CD²
+* **Find BC:** Similarly, we can use the Pythagorean Theorem on triangle BDC to find BC:
+   * BC² + CD² = BD²
+   * BC² + CD² = 5²
+   * BC² = 25 - CD²
+* **Use the Pythagorean Theorem on ABC:** Now we can use the Pythagorean Theorem on the entire triangle ABC:
+   * AC² + BC² = AB²
+   * (25 - CD²) + (25 - CD²) = 10²
+   * 50 - 2CD² = 100
+   * 2CD² = -50
+   * CD² = -25
+
+**3. Solve for CD**
+
+Since the square of a real number cannot be negative, there is no real solution for CD. This means there's likely an error in the problem statement or the diagram. 
+
+**Important Note:** It's impossible for a triangle to have a side length that results in a negative square.  Double-check the problem and diagram to ensure accuracy. 
+",False,0,4.483757734298706,742.0
+748,"As shown in the figure, PA and PB are tangents of ⊙O, the tangent point of point A and B, AC is the diameter of ⊙O, given that ∠P = 50.0, then the size of ∠ACB is ()",65°,"Here's how to solve the problem:
+
+**Understanding the Properties**
+
+* **Tangents and Radii:**  Tangents to a circle are perpendicular to the radius drawn to the point of tangency. This means ∠OAB = ∠OBA = 90°.
+* **Angles in a Triangle:** The angles inside a triangle add up to 180°.
+* **Inscribed Angle Theorem:** An inscribed angle (an angle formed by two chords with its vertex on the circle) is half the measure of its intercepted arc.
+
+**Solving the Problem**
+
+1. **Find ∠ABO:** Since ∠OAB = 90° and ∠P = 50°, we can find ∠ABO in triangle ABO:
+   ∠ABO = 180° - ∠OAB - ∠P = 180° - 90° - 50° = 40°
+
+2. **Find ∠ACO:**  Since ∠OBA = 90° and ∠ABO = 40°, we can find ∠ACO in triangle ABO:
+   ∠ACO = 180° - ∠OBA - ∠ABO = 180° - 90° - 40° = 50°
+
+3. **Find ∠ACB:**  Since AC is a diameter, ∠ACB is an inscribed angle that intercepts a semicircle.  Therefore, ∠ACB = 1/2 * 180° = 90°.
+
+**Answer:** The size of ∠ACB is **90°**. 
+",False,0,3.2989251613616943,675.0
+273,"One diagonal of a rhombus is twice as long as the other diagonal. If the area of the rhombus is 169 square millimeters, what are the lengths of the diagonals?",26,"Here's how to solve the problem:
+
+**1. Understand the Properties of a Rhombus**
+
+* **Diagonals bisect each other at right angles:** This means the diagonals divide the rhombus into four congruent right triangles.
+* **Area of a rhombus:**  Area = (1/2) * (product of diagonals)
+
+**2. Set up the Equations**
+
+* Let the shorter diagonal be 'd'.
+* The longer diagonal is '2d'.
+* Area = 169 mm²
+
+**3. Apply the Area Formula**
+
+* 169 = (1/2) * (d * 2d)
+* 169 = d²
+
+**4. Solve for 'd'**
+
+* d = √169 = 13 mm
+
+**5. Find the Length of the Longer Diagonal**
+
+* Longer diagonal = 2d = 2 * 13 = 26 mm
+
+**Answer:**
+
+* The shorter diagonal is 13 mm long.
+* The longer diagonal is 26 mm long. 
+",True,1,2.8981540203094482,540.0
+257,以直角三角形的三边为边向外作正方形，其中两个正方形的面积如图所示，则正方形A的面积为（）,6,"The problem asks for the area of square A, given the areas of the other two squares.
+
+1. **Recognize the Pythagorean Theorem:** The diagram shows a right triangle with sides of length 8, 14, and the unknown side represented by square A. The Pythagorean Theorem states that in a right triangle, the square of the hypotenuse (the side opposite the right angle) is equal to the sum of the squares of the other two sides.
+
+2. **Apply the Theorem:**  Let the side length of square A be 'a'.  We can write the Pythagorean Theorem for this triangle as: 
+   8² + a² = 14²
+
+3. **Solve for 'a':**
+   - 64 + a² = 196
+   - a² = 132
+   - a = √132 
+
+4. **Calculate the Area:** The area of square A is side length squared:
+   - Area of A = a² = (√132)² = 132
+
+**Therefore, the area of square A is 132.**",False,0,2.910193920135498,537.0
+397,如图，点A、B、C都在半径为2的⊙O上，∠C＝30°，则弦AB长为（）,2,"The problem asks for the length of chord AB in a circle with radius 2, given that angle C is 30 degrees. Here's how to solve it:
+
+1. **Recognize the Triangle:** Triangle ABC is inscribed in the circle, and angle C is an inscribed angle that intercepts arc AB.
+
+2. **Inscribed Angle Theorem:** The measure of an inscribed angle is half the measure of its intercepted arc. Since angle C is 30 degrees, arc AB is 60 degrees.
+
+3. **Equilateral Triangle:**  A 60-degree arc in a circle corresponds to a central angle of 60 degrees.  This means triangle AOB is an equilateral triangle because all three angles are 60 degrees.
+
+4. **Chord Length:** Since triangle AOB is equilateral, all sides are equal to the radius of the circle. Therefore, chord AB has a length of **2**. 
+
+**Answer:** The length of chord AB is 2.",True,1,2.522416830062866,504.0
+586,"As shown in the figure, in Rt△ABC, ∠BAC = 90.0, rotate △ABC clockwise around point A by 90.0 to obtain △AB′C′ (the corresponding point of point B is point B′, and the corresponding point of point C is point C ′), connect CC′. If ∠CC′B′ = 32.0, then the size of ∠AC′B′ is ()",13°,"Here's how to solve the problem:
+
+**1. Understand the Rotation**
+
+* Rotating triangle ABC 90 degrees clockwise around point A means that:
+    *  Angle BAC becomes angle B'AC' (both are right angles).
+    *  Line segment AB becomes line segment AB'.
+    *  Line segment BC becomes line segment B'C'.
+
+**2. Analyze the Angles**
+
+* **∠CC'B' = 32°:** This is given in the problem.
+* **∠B'AC' = 90°:**  This is because the rotation is 90 degrees.
+* **∠AC'B' + ∠CC'B' = 90°:**  These two angles form a right angle in triangle AC'B'.
+
+**3. Solve for ∠AC'B'**
+
+* Substitute the known value of ∠CC'B' into the equation: ∠AC'B' + 32° = 90°
+* Solve for ∠AC'B': ∠AC'B' = 90° - 32° = 58°
+
+**Therefore, the size of ∠AC'B' is 58°.** 
+",False,0,3.175431966781616,631.0
+178,如图，点A、C在∠FBD的两条边BF、BD上，BE平分∠FBD，CE平分∠ACD，连接AE，若∠BEC＝35°，则∠FAE的度数为（）,55°,"The problem asks for the measure of angle FAE.  Here's how to solve it:
+
+1. **Understanding Angle Bisectors:**  Since BE bisects angle FBD, we know that angle FBE = angle EBD. Similarly, since CE bisects angle ACD, we know that angle ACE = angle ECD.
+
+2. **Using the Angle Sum Property:**  In triangle BEC, the sum of its angles is 180 degrees.  Therefore:
+   ∠BEC + ∠BCE + ∠CBE = 180°
+   35° + ∠BCE + ∠CBE = 180°
+   ∠BCE + ∠CBE = 145°
+
+3. **Finding Related Angles:**  Since ∠BCE = ∠ECD and ∠CBE = ∠EBD, we can substitute to get:
+   ∠ECD + ∠EBD = 145°
+
+4. **Focusing on Triangle ABE:**  In triangle ABE, the sum of its angles is 180 degrees.  Therefore:
+   ∠BAE + ∠ABE + ∠AEB = 180°
+   ∠BAE + ∠EBD + ∠BEC + ∠ECD = 180°
+   ∠BAE + 145° + 35° = 180°
+   ∠BAE = 0°
+
+5. **Final Step:**  Since ∠BAE = 0°, we know that points A, B, and E are collinear.  Therefore, ∠FAE = ∠FAB.  Since ∠FAB is an angle of triangle FAB, we can find its measure using the angle sum property of triangles.  However, we don't have enough information to determine the measures of the other angles in triangle FAB.
+
+**Conclusion:**  We can conclude that ∠FAE = ∠FAB, but we cannot determine the exact measure of ∠FAE without more information. 
+",False,0,4.2195398807525635,757.0
+855,Find $x$ so that $a ∥ b$.,14,"Angles $a$ and $(8x+1)^\circ$ are corresponding angles.  If $a ∥ b$, then these angles are congruent.  Therefore, we have the equation $4x+11 = 8x+1$.  Solving for $x$, we find $x = \boxed{2.5}$.",False,0,1.7853062152862549,351.0
+536,"As shown in the figure, points A, B, and C are on ⊙O, if ∠C = 35.0, then ∠AOB = ()",70°,"The measure of an inscribed angle is half the measure of its intercepted arc.  Therefore, the measure of arc AB is 2*35 = 70 degrees.  The measure of a central angle is equal to the measure of its intercepted arc.  Therefore, ∠AOB = 70 degrees.",True,1,1.6481921672821045,371.0
+621,"The figure above is composed of 25 small triangles that are congruent and equilateral. If the area of triangle DFH is 10, what is the area of triangle AFK?",62.5,"Here's how to solve the problem:
+
+* **Understanding the Figure:** The figure is a large equilateral triangle divided into smaller equilateral triangles.  Notice that triangle AFK is made up of 5 of these smaller triangles.
+
+* **Area Ratios:** Since all the small triangles are congruent, their areas are equal.  The area of a larger triangle is proportional to the number of smaller triangles it contains.
+
+* **Finding the Area of AFK:**  Triangle AFK contains 5 small triangles, and triangle DFH contains 2 small triangles.  Therefore, the area of triangle AFK is 5/2 times the area of triangle DFH.
+
+* **Calculation:**  The area of triangle AFK is (5/2) * 10 = 25.
+
+**Answer:** The area of triangle AFK is **25**. However, this answer is not among the choices provided. There might be an error in the problem or the answer choices. 
+",False,0,2.5301899909973145,510.0
+786,Find $m \angle K$,100,"Here's how to solve the problem:
+
+* **Identify the shape:** The figure is a trapezoid, which is a quadrilateral with one pair of parallel sides.
+
+* **Understand angle relationships:** In a trapezoid, the two angles on the same side of a non-parallel side are supplementary (they add up to 180 degrees).
+
+* **Apply the relationship:**  Since angle JML is 80 degrees, angle KLM (which is on the same side of the non-parallel side) must be 180 - 80 = 100 degrees.
+
+* **Therefore, m∠K = 100 degrees.** 
+",True,1,2.239354133605957,416.0
+242,Find $m \angle A$ of quadrilateral ABCD,135,"Here's how to solve the problem:
+
+* **Understanding Quadrilaterals:** A quadrilateral is a four-sided polygon. The sum of the interior angles of any quadrilateral is always 360 degrees.
+
+* **Right Angles:** The image shows that angles B and C are right angles, each measuring 90 degrees.
+
+* **Setting up the Equation:**  Let's represent the unknown angle at D as 'x'. We know angle A is 3x.  We can set up an equation: 
+   x + 3x + 90 + 90 = 360
+
+* **Solving for x:**
+   * Combine like terms: 4x + 180 = 360
+   * Subtract 180 from both sides: 4x = 180
+   * Divide both sides by 4: x = 45
+
+* **Finding m∠A:**
+   * Since angle A is 3x, substitute x = 45: 3 * 45 = 135
+
+**Therefore, m∠A = 135 degrees.**",True,1,3.058257818222046,521.0
+528,如图，AB∥CD，BD⊥CF，垂足为B，∠ABF＝35°，则∠BDC的度数为（）,55°,"The problem asks for the measure of angle BDC.  Here's how to solve it:
+
+1. **Identify parallel lines and transversals:** We are given that AB is parallel to CD, and line CF is a transversal that intersects both lines.
+
+2. **Corresponding angles:** Since AB is parallel to CD, angle ABF and angle BDC are corresponding angles. Corresponding angles are equal in measure.
+
+3. **Solve for the angle:** Therefore, angle BDC = angle ABF = 35 degrees.
+
+**Answer:** The measure of angle BDC is 35 degrees. 
+",False,0,2.0157482624053955,427.0
+150,"As shown in the figure, points A, B, and C are three points on ⊙O, and the straight line CD and ⊙O are tangent to point C. If ∠DCB = 40.0, then the degree of ∠CAB is ()",40°,"Here's how to solve the problem:
+
+**Understanding the Concepts**
+
+* **Tangent-Radius Theorem:** A tangent line to a circle is perpendicular to the radius drawn to the point of tangency. This means ∠OCB = 90°.
+* **Inscribed Angle Theorem:** An inscribed angle's measure is half the measure of its intercepted arc.
+* **Central Angle Theorem:** A central angle's measure is equal to the measure of its intercepted arc.
+
+**Solving the Problem**
+
+1. **Find ∠BCO:** Since ∠DCB = 40° and ∠OCB = 90°, we have ∠BCO = 180° - 40° - 90° = 50°.
+
+2. **Find arc BC:**  ∠BCO is a central angle intercepting arc BC, so arc BC = ∠BCO = 50°.
+
+3. **Find ∠CAB:** ∠CAB is an inscribed angle intercepting arc BC. Therefore, ∠CAB = (1/2) * arc BC = (1/2) * 50° = 25°.
+
+**Answer:** The degree of ∠CAB is **25°.** 
+",False,0,3.0469589233398438,591.0
+898,"As shown in the figure, A, B, and C are the three points on ⊙O, if ∠C = 35.0, then the degree of ∠OAB is ()",55°,"Here's how to solve the problem:
+
+**Understanding the Concepts**
+
+* **Inscribed Angle Theorem:** An inscribed angle's measure is half the measure of its intercepted arc.
+* **Central Angle Theorem:** A central angle's measure is equal to the measure of its intercepted arc.
+
+**Solving the Problem**
+
+1. **Identify the Intercepted Arc:**  Angle C intercepts arc AB.
+
+2. **Apply the Inscribed Angle Theorem:** Since ∠C is an inscribed angle, its measure is half the measure of arc AB. Therefore, arc AB = 2 * ∠C = 2 * 35° = 70°.
+
+3. **Apply the Central Angle Theorem:** Angle AOB is a central angle that intercepts arc AB.  Therefore, ∠AOB = arc AB = 70°.
+
+4. **Triangle Properties:** Triangle AOB is an isosceles triangle because OA and OB are radii of the circle.  This means ∠OAB = ∠OBA.
+
+5. **Angle Sum Property:** The angles in a triangle add up to 180°.  Therefore, in triangle AOB:
+   ∠OAB + ∠OBA + ∠AOB = 180°
+   2 * ∠OAB + 70° = 180°
+   2 * ∠OAB = 110°
+   ∠OAB = 55°
+
+**Answer:** The degree of ∠OAB is 55°. 
+",True,1,3.4903008937835693,635.0
+388,Express the ratio of $\tan M$ as a decimal to the nearest hundredth.,0.42,"The tangent of an angle is the ratio of the opposite side to the adjacent side.  In this case, the opposite side of angle $M$ is $PN$ and the adjacent side is $MN$.  Therefore, $\tan M = \frac{PN}{MN} = \frac{15}{36} = \boxed{0.42}$.",True,1,2.2486181259155273,361.0
+697,"As shown in the figure, in the parallelogram ABCD, it is known that AB = 6.0, BC = 9.0, ∠B = 30.0, then the area of ​​the parallelogram ABCD is ()",27,"The area of a parallelogram is equal to the base times the height. In this case, we can use AB as the base and the perpendicular distance from C to AB as the height.
+
+Since ∠B = 30.0, we know that triangle ABC is a 30-60-90 triangle. In a 30-60-90 triangle, the hypotenuse is twice the length of the shorter leg, and the longer leg is √3 times the length of the shorter leg.
+
+Therefore, BC (the hypotenuse) is twice the length of AB (the shorter leg), so AB = BC/2 = 9.0/2 = 4.5.
+
+The longer leg of triangle ABC is AC, which is √3 times the length of AB, so AC = √3 * AB = √3 * 4.5 = 4.5√3.
+
+The height of the parallelogram is the perpendicular distance from C to AB, which is the same as the length of AC.
+
+Therefore, the area of the parallelogram is:
+
+Area = base * height = AB * AC = 4.5 * 4.5√3 = 20.25√3
+
+So the area of the parallelogram ABCD is 20.25√3.",False,0,3.052069902420044,593.0
+79,"As shown in the figure, points A, B, C, and D are on circle O, and point E is on the extended line of AD. If ∠ABC = 60.0, then the degree of ∠CDE is ()",60°,"Here's how to solve the problem:
+
+**Understanding the Concepts**
+
+* **Inscribed Angle Theorem:** An inscribed angle's measure is half the measure of its intercepted arc.
+* **Central Angle Theorem:** A central angle's measure is equal to the measure of its intercepted arc.
+
+**Solving the Problem**
+
+1. **Find the measure of arc AC:** Since ∠ABC is an inscribed angle intercepting arc AC, and ∠ABC = 60°, then arc AC = 2 * 60° = 120°.
+
+2. **Find the measure of central angle AOC:** Central angle AOC intercepts the same arc AC, so ∠AOC = 120°.
+
+3. **Find the measure of arc AD:** Arc AD is the remaining portion of the circle after arc AC. Since a circle has 360°, arc AD = 360° - 120° = 240°.
+
+4. **Find the measure of ∠CDE:** ∠CDE is an inscribed angle intercepting arc AD. Therefore, ∠CDE = 1/2 * 240° = 120°.
+
+**Answer:** The degree of ∠CDE is **120°.** 
+",False,0,3.224196195602417,591.0
+375,Find the length of $AC$ in the isosceles triangle ABC. ,7,"The triangle is isosceles, so $AC = BC$.  We can set the expressions for $AC$ and $BC$ equal to each other and solve for $x$:
+
+$$4x + 1 = 5x - 0.5$$
+
+Subtracting $4x$ from both sides, we get:
+
+$$1 = x - 0.5$$
+
+Adding $0.5$ to both sides, we get:
+
+$$1.5 = x$$
+
+Now that we know $x = 1.5$, we can substitute it back into either expression for $AC$ or $BC$ to find the length of $AC$:
+
+$$AC = 4x + 1 = 4(1.5) + 1 = 6 + 1 = \boxed{7}$$",True,1,2.530244827270508,455.0
+557,如图，在Rt△ABC中，∠BAC＝90°，以Rt△ABC的三边为边分别向外作等边三角形△A'BC，△AB'C，△ABC'，若△A'BC，△AB'C的面积分别是10和4，则△ABC'的面积是（）,6,"The problem asks for the area of triangle ABC'.  To solve this, we need to find the lengths of the sides of triangle ABC.
+
+1. **Area of equilateral triangles:** The area of an equilateral triangle is given by (√3/4) * side².  We know the areas of triangles A'BC and AB'C, so we can find the lengths of their sides:
+
+   - For triangle A'BC: 10 = (√3/4) * BC²  => BC² = 40/√3 => BC = √(40/√3)
+   - For triangle AB'C: 4 = (√3/4) * AC² => AC² = 16/√3 => AC = √(16/√3)
+
+2. **Pythagorean theorem:** Since triangle ABC is a right triangle, we can use the Pythagorean theorem to find the length of AB:
+
+   - AB² = BC² + AC² = (40/√3) + (16/√3) = 56/√3
+   - AB = √(56/√3)
+
+3. **Area of triangle ABC':** Now that we know the lengths of all sides of triangle ABC', we can calculate its area:
+
+   - Area of triangle ABC' = (√3/4) * AB² = (√3/4) * (56/√3) = 14
+
+Therefore, the area of triangle ABC' is **14**.",False,0,3.640471935272217,663.0
+35,如图，AB是⊙O的直径，EF，EB是⊙O的弦，点E是FEB的中点，EF与AB交于点C，连接OF，若∠AOF＝40°，则∠F的度数是（）,35°,"The problem asks for the measure of angle F in the given diagram. Here's how to solve it:
+
+**1. Identify Key Properties:**
+
+* **Inscribed Angle Theorem:** An inscribed angle's measure is half the measure of its intercepted arc.
+* **Central Angle Theorem:** A central angle's measure is equal to the measure of its intercepted arc.
+* **Diameter Property:** A diameter divides a circle into two semicircles, each measuring 180 degrees.
+
+**2. Apply the Properties:**
+
+* **Angle AOF:** Since ∠AOF = 40°, arc AF also measures 40° (Central Angle Theorem).
+* **Angle AEB:**  Arc AB is a semicircle, so it measures 180°.  Therefore, ∠AEB = 1/2 * 180° = 90° (Inscribed Angle Theorem).
+* **Angle EFB:** Since E is the midpoint of FEB, ∠FEB = 2 * ∠EFB.
+* **Angle CEF:**  ∠CEF is an exterior angle of triangle EFB, so ∠CEF = ∠EFB + ∠FEB.
+
+**3. Solve for Angle F:**
+
+* **Angle CEF:**  ∠CEF = 180° - ∠AOF = 180° - 40° = 140° (Angles on a straight line).
+* **Angle EFB:**  ∠EFB = 1/2 * ∠FEB = 1/2 * (∠CEF - ∠EFB) = 1/2 * (140° - ∠EFB).
+* **Solve for EFB:**  (3/2) * ∠EFB = 70° => ∠EFB = 46.67°.
+* **Angle F:**  ∠F = ∠EFB = 46.67°.
+
+**Therefore, the measure of angle F is approximately 46.67 degrees.** 
+",False,0,4.4610350131988525,763.0
+192,"As shown in the figure, the diameter CD of ⊙O crosses the midpoint G of chord EF, ∠DCF = 20.0, then ∠EOD is equal to ()",40°,"Here's how to solve the problem:
+
+**1. Understand the Properties**
+
+* **Inscribed Angle Theorem:** An inscribed angle's measure is half the measure of its intercepted arc.
+* **Central Angle Theorem:** A central angle's measure is equal to the measure of its intercepted arc.
+* **Diameter Property:** A diameter divides a circle into two semicircles, each measuring 180 degrees.
+
+**2. Apply the Properties**
+
+* **Arc CF:** Since ∠DCF = 20°, the intercepted arc CF is twice that measure, making arc CF = 40°.
+* **Arc CEF:**  Since CD is a diameter, arc CEF is a semicircle, measuring 180°.
+* **Arc CE:**  Subtract arc CF from arc CEF to find arc CE: 180° - 40° = 140°.
+* **∠EOD:**  ∠EOD is a central angle intercepting arc CE. Therefore, ∠EOD = arc CE = 140°.
+
+**Answer:** ∠EOD = 140° 
+",False,0,3.0880696773529053,548.0
+499,"Quadrilateral $ABDC$ is a rectangle. If $m\angle1 = 38$, find $m \angle 2$",52,"Here's how to solve the problem:
+
+* **Understanding Rectangles:**  A rectangle has four right angles. This means that all the angles inside the rectangle add up to 360 degrees.
+
+* **Finding Angle 2:** Since angles 1 and 2 are supplementary (they add up to 180 degrees) because they form a straight line, we can find angle 2:
+
+   *  m∠2 = 180° - m∠1 
+   *  m∠2 = 180° - 38°
+   *  m∠2 = 142°
+
+**Therefore, m∠2 = 142°**",False,0,2.1283578872680664,446.0
+876,"In the figure, square $ABDC$ is inscribed in $\odot K$. Find the measure of a central angle.",90,"Here's how to solve the problem:
+
+* **Understanding the Relationship:** A square inscribed in a circle means that the vertices of the square lie on the circle's circumference.  The center of the square (point F) is also the center of the circle (point K).
+
+* **Central Angle:** A central angle is an angle whose vertex is at the center of the circle. In this case, we want to find the measure of any angle formed by two radii of the circle.
+
+* **Dividing the Circle:**  Since a square has four equal sides, it divides the circle into four equal arcs.  Each arc represents 1/4 of the circle's circumference.
+
+* **Angle Measure:** A full circle has 360 degrees.  Therefore, each central angle formed by the square's vertices is 360 degrees / 4 = 90 degrees.
+
+**Answer:** The measure of a central angle in this figure is **90 degrees**. 
+",True,1,2.7870891094207764,500.0
+767,What is the maximum value of y?,5,"The equation of the circle is x² + y² = 25.  This is the standard form of the equation of a circle centered at the origin with radius 5.  The maximum value of y is the radius of the circle, which is 5.",True,1,1.9624278545379639,332.0
+256,如图，△ABC中，AD平分∠BAC，AD交BC于点D，DE⊥AB，垂足为E，若DE＝3，AC＝4，则△ADC的面积为（）,6,"The problem asks for the area of triangle ADC. We know that DE is perpendicular to AB and DE = 3, and AC = 4. We can use the formula for the area of a triangle:
+
+Area = (1/2) * base * height
+
+In triangle ADC, AC is the base and DE is the height. Therefore, the area of triangle ADC is:
+
+Area of triangle ADC = (1/2) * AC * DE = (1/2) * 4 * 3 = 6
+
+Therefore, the area of triangle ADC is 6.",True,1,1.5803210735321045,433.0
+30,"As shown in the figure, the two chords AB and CD in the circle intersect at E, ∠D = 35.0, ∠AEC = 105.0, then ∠C = ()",70°,"Here's how to solve the problem:
+
+**Understanding the Concepts**
+
+* **Inscribed Angle Theorem:** An inscribed angle's measure is half the measure of its intercepted arc.
+* **Vertical Angles:** Vertical angles are opposite angles formed by the intersection of two lines. They are always equal.
+
+**Steps to Solve**
+
+1. **Find ∠AED:** Since ∠AEC and ∠AED are vertical angles, they are equal. Therefore, ∠AED = 105°.
+
+2. **Find ∠ABE:**  ∠ABE and ∠AED are inscribed angles intercepting the same arc (AD).  By the Inscribed Angle Theorem, ∠ABE = 1/2 * ∠AED = 1/2 * 105° = 52.5°.
+
+3. **Find ∠BAE:**  The angles in triangle ABE add up to 180°.  Therefore, ∠BAE = 180° - ∠ABE - ∠BEA = 180° - 52.5° - 35° = 92.5°.
+
+4. **Find ∠BAC:**  ∠BAC and ∠BAE are supplementary angles (they add up to 180°). Therefore, ∠BAC = 180° - ∠BAE = 180° - 92.5° = 87.5°.
+
+5. **Find ∠C:**  The angles in triangle ABC add up to 180°. Therefore, ∠C = 180° - ∠BAC - ∠ABC = 180° - 87.5° - 52.5° = **40°**.
+
+**Therefore, ∠C = 40°.** 
+",False,0,4.29880690574646,704.0
+816,"Find x. Round to the nearest tenth, if necessary.",3,"Here's how to solve the problem:
+
+**Understanding the Concept**
+
+This problem involves the **Intersecting Secant-Secant Theorem**. This theorem states that when two secants intersect outside a circle, the product of the external segment of one secant and its whole length is equal to the product of the external segment of the other secant and its whole length.
+
+**Applying the Theorem**
+
+1. **Identify the secants:**  We have two secants:
+   * One with external segment 'x' and whole length 'x + 9'.
+   * The other with external segment '2x' and whole length '2x + 24'.
+
+2. **Set up the equation:** According to the theorem:
+   x(x + 9) = 2x(2x + 24)
+
+3. **Solve for x:**
+   * Expand the equation: x² + 9x = 4x² + 48x
+   * Move all terms to one side: 3x² + 39x = 0
+   * Factor out 3x: 3x(x + 13) = 0
+   * Solve for x: 
+      * 3x = 0  => x = 0 (This solution is not valid in this context as it would make the segment lengths zero)
+      * x + 13 = 0 => x = -13 (This solution is also not valid as length cannot be negative)
+
+**Conclusion**
+
+Since the solutions x = 0 and x = -13 are not valid, there seems to be an error in the problem setup. It's impossible to have a valid solution for x with the given information. 
+",False,0,4.002779960632324,654.0
+221,"As shown in the figure, A, B, C are three points on ⊙O, ∠ACB = 25.0, then the degree of ∠BAO is ()",65°,"The measure of an inscribed angle is half the measure of its intercepted arc.  Therefore, the measure of arc AB is 2 * 25 = 50 degrees.  Since the measure of a central angle is equal to the measure of its intercepted arc, the measure of angle AOB is 50 degrees.  Since OA and OB are radii of the circle, triangle AOB is isosceles.  Therefore, the measure of angle BAO is (180 - 50)/2 = 65 degrees.  So the answer is 65.",True,1,2.2143020629882812,428.0
+773,"As shown in the figure, AB is the diameter of ⊙O, point D is on the extended line of AB, passing point D is the tangent of ⊙O, and the tangent point is C, if ∠A = 25.0, then ∠D = ()",40°,"Here's how to solve the problem:
+
+**Understanding the Concepts**
+
+* **Tangent-Radius Theorem:** A tangent line to a circle is perpendicular to the radius drawn to the point of tangency. This means ∠OCB = 90°.
+* **Angles in a Triangle:** The angles inside a triangle add up to 180°.
+* **Inscribed Angle Theorem:** An inscribed angle's measure is half the measure of its intercepted arc.
+
+**Solving the Problem**
+
+1. **Identify the Inscribed Angle:**  ∠A is an inscribed angle that intercepts arc BC.
+
+2. **Find the Measure of Arc BC:** Since ∠A = 25°, and the inscribed angle theorem tells us the inscribed angle is half the intercepted arc, arc BC = 2 * ∠A = 50°.
+
+3. **Find ∠BOC:**  ∠BOC is a central angle that intercepts arc BC.  Central angles are equal to their intercepted arcs, so ∠BOC = 50°.
+
+4. **Find ∠CBO:**  Triangle BOC is a right triangle (∠OCB = 90°).  We know ∠BOC = 50°, so ∠CBO = 180° - 90° - 50° = 40°.
+
+5. **Find ∠D:**  ∠D and ∠CBO are supplementary angles (they add up to 180°). Therefore, ∠D = 180° - ∠CBO = 180° - 40° = 140°.
+
+**Answer:** ∠D = 140° 
+",False,0,3.7676937580108643,691.0
+804,"In $\odot B$, $CE=13.5$. Find $BD$. Round to the nearest hundredth.",4.29,"Here's how to solve the problem:
+
+* **Recognize the relationship:**  Line segment AB is a diameter of the circle, and CE is a chord that is perpendicular to the diameter. This means that CE is bisected by the diameter, and CD = DE = 13.5/2 = 6.75.
+
+* **Apply the Pythagorean Theorem:** Triangle BDC is a right triangle. We know BD is the hypotenuse, BC is one leg (which is equal to the radius of the circle), and CD is the other leg.  
+
+* **Find the radius:** Since AB is the diameter and AB = 8, the radius BC = 8/2 = 4.
+
+* **Solve for BD:** Using the Pythagorean Theorem:
+   BD² = BC² + CD²
+   BD² = 4² + 6.75²
+   BD² = 16 + 45.5625
+   BD² = 61.5625
+   BD = √61.5625 ≈ 7.85
+
+**Therefore, BD is approximately 7.85 units long.**",False,0,3.1185593605041504,540.0
+391,"As shown in the figure, point O is the center of ⊙O, points A, B, and C are on ⊙O, AO ∥ BC, ∠AOB = 40.0, then the degree of ∠OAC is equal to ()",20°,"Here's how to solve the problem:
+
+**1. Understand the Properties**
+
+* **Parallel Lines:**  Since AO ∥ BC, we know that alternate interior angles are equal. This means ∠OAB = ∠OBC.
+* **Central Angle:**  ∠AOB is a central angle, and its measure is equal to the measure of the intercepted arc AB.
+* **Inscribed Angle:** ∠OAC is an inscribed angle that intercepts the same arc AB as the central angle ∠AOB.
+
+**2. Apply the Properties**
+
+* **Find ∠OAB:** Since ∠AOB = 40°, the intercepted arc AB also measures 40°.  Because ∠OAB and ∠OBC are alternate interior angles, they are equal.  Therefore, ∠OAB = ∠OBC = 40°/2 = 20°.
+* **Find ∠OAC:**  The inscribed angle ∠OAC intercepts the same arc AB as the central angle ∠AOB.  The measure of an inscribed angle is half the measure of its intercepted arc.  Therefore, ∠OAC = 40°/2 = 20°.
+
+**Answer:** The degree of ∠OAC is **20**. 
+",True,1,3.2358672618865967,599.0
+62,如图，E，F分别是菱形ABCD的边AB，AD的中点，且AB＝5，AC＝6．则EF的长为（）,4,"The problem asks for the length of EF in a rhombus ABCD, where E and F are the midpoints of AB and AD respectively, AB = 5, and AC = 6.
+
+Here's how to solve it:
+
+1. **Properties of a Rhombus:**
+   - All sides are equal (AB = BC = CD = DA = 5)
+   - Diagonals bisect each other at right angles (AO = OC, BO = OD, and angle AOB = angle BOC = angle COD = angle DOA = 90 degrees)
+
+2. **Midpoint Theorem:**
+   - The line segment joining the midpoints of two sides of a triangle is parallel to the third side and half its length.
+
+3. **Applying the Concepts:**
+   - Consider triangle ABD. E and F are midpoints of AB and AD, so EF is parallel to BD and EF = 1/2 BD.
+   - Since diagonals of a rhombus bisect each other at right angles, triangle AOB is a right-angled triangle with AO = AC/2 = 3 and BO = AB/2 = 2.5.
+   - Using the Pythagorean theorem, we can find BD: BD² = BO² + DO² = BO² + BO² = 2 * BO² = 2 * (2.5)² = 12.5. Therefore, BD = √12.5.
+
+4. **Finding EF:**
+   - EF = 1/2 BD = 1/2 * √12.5 = √12.5 / 2.
+
+Therefore, the length of EF is **√12.5 / 2**. 
+",False,0,3.6544768810272217,657.0
+615,"If two sides of a triangle measure 12 and 7, which of the following cannot be the perimeter of the triangle?",38,"Here's how to solve this problem:
+
+**Understanding the Triangle Inequality**
+
+The Triangle Inequality Theorem states that the sum of any two sides of a triangle must be greater than the third side.
+
+**Applying the Theorem**
+
+* **Case 1:**  If the third side is the smallest, it must be greater than the difference of the other two sides (12 - 7 = 5).
+* **Case 2:** If the third side is the largest, it must be less than the sum of the other two sides (12 + 7 = 19).
+
+**Finding the Impossible Perimeter**
+
+Let's consider the possible perimeters:
+
+* **Perimeter less than 19:**  This is possible because the third side could be smaller than 5.
+* **Perimeter equal to 19:** This is possible if the third side is exactly 5.
+* **Perimeter greater than 19:** This is possible because the third side could be larger than 5 but less than 19.
+
+**The only perimeter that cannot be achieved is one that is less than 12 + 7 = 19.** 
+",False,0,3.043313980102539,539.0
+674,"In the figure above, CDE is an equilateral triangle and ABCE is a square with an area of 1. What is the perimeter of polygon ABCDE?",5,"Here's how to solve the problem:
+
+**1. Find the side length of the square:**
+
+* The area of a square is side * side (s²)
+* Since the area of the square is 1, the side length (s) is √1 = 1.
+
+**2. Find the side length of the equilateral triangle:**
+
+* The side length of the square (AB or BC) is also the side length of the equilateral triangle (CD or DE). 
+* Therefore, the side length of the triangle is 1.
+
+**3. Calculate the perimeter:**
+
+* Perimeter of ABCDE = AB + BC + CD + DE + EA
+* Perimeter = 1 + 1 + 1 + 1 + 1 = **5**
+
+**Therefore, the perimeter of polygon ABCDE is 5.** 
+",True,1,2.452579975128174,479.0
+3,△ABC的两内角平分线OB、OC相交于点O，若∠A＝110°，则∠BOC＝（）,145°,"**1. 理解角平分线的性质**
+
+角平分线将一个角分成两个相等的角。
+
+**2. 利用角平分线性质**
+
+因为OB是∠ABC的角平分线，所以∠ABO = ∠CBO。
+因为OC是∠ACB的角平分线，所以∠ACO = ∠BCO。
+
+**3. 利用三角形内角和定理**
+
+三角形内角和为180°，所以：
+∠ABC + ∠ACB + ∠BAC = 180°
+
+**4. 联立方程**
+
+将∠ABO = ∠CBO和∠ACO = ∠BCO代入三角形内角和定理，得到：
+2∠CBO + 2∠BCO + ∠BAC = 180°
+
+**5. 代入已知条件**
+
+已知∠BAC = 110°，代入上式得到：
+2∠CBO + 2∠BCO + 110° = 180°
+
+**6. 化简方程**
+
+化简方程得到：
+∠CBO + ∠BCO = 35°
+
+**7. 利用三角形内角和定理**
+
+在△BOC中，根据三角形内角和定理：
+∠BOC + ∠CBO + ∠BCO = 180°
+
+**8. 求解∠BOC**
+
+将∠CBO + ∠BCO = 35°代入上式，得到：
+∠BOC + 35° = 180°
+∠BOC = 145°
+
+**所以，∠BOC = 145°**",True,1,4.0392866134643555,685.0
+736,如图，已知直线a∥b，直角三角形ABC中，∠C＝90°，若∠B＝58°，那么∠1﹣∠2＝（）,32°,"The problem asks for the difference between angle 1 and angle 2.  We can solve this by using the following steps:
+
+1. **Identify the relationship between angles 1 and 2.**  Angle 1 and angle 2 are corresponding angles because they are on the same side of the transversal and in corresponding positions relative to the parallel lines.  Corresponding angles are equal.
+
+2. **Find the measure of angle 1.**  Since angle 1 and angle 2 are equal, we know that angle 1 also measures 2 degrees.
+
+3. **Find the measure of angle A.**  The angles in a triangle add up to 180 degrees.  We know that angle B is 58 degrees and angle C is 90 degrees.  Therefore, angle A is 180 - 58 - 90 = 32 degrees.
+
+4. **Find the difference between angle 1 and angle 2.**  Since angle 1 and angle 2 are equal, their difference is 0 degrees.
+
+Therefore, the answer is **0**.",False,0,2.831937074661255,537.0
+679,"As shown in the figure, in ▱ABCD, the diagonal AC and BD intersect at point O, if AC = 12.0, BD = 8.0, AB = 7.0, then the perimeter of △OAB is ()",17,"The diagonals of a parallelogram bisect each other. Therefore, AO = CO = 1/2 AC = 6.0, BO = DO = 1/2 BD = 4.0.
+The perimeter of △OAB is OA + OB + AB = 6.0 + 4.0 + 7.0 = 17.0.
+So the answer is 17.0.",True,1,1.6891999244689941,411.0
+373,"As shown in the figure, in the quadrilateral ABCD, ∠BAD = 120.0, ∠B = ∠D = 90.0, if you find a point M on BC and CD respectively, so that the perimeter of △AMN is the smallest, then the degree of ∠AMN + ∠ANM is ()",120°,"Here's how to solve the problem:
+
+**Understanding the Problem**
+
+The problem asks us to find a point M on line BC and a point N on line CD such that the perimeter of triangle AMN is minimized.  This is a classic optimization problem.
+
+**Key Concepts**
+
+* **Reflection:**  The key to solving this problem is to use the concept of reflection.  We'll reflect point A across line BC to create a new point A'.
+* **Shortest Distance:** The shortest distance between two points is a straight line.
+
+**Solution**
+
+1. **Reflect Point A:** Reflect point A across line BC to create point A'.  Notice that triangle ABA' is isosceles with AB = A'B.
+
+2. **Connect A' and N:** Draw a line segment from A' to point N.
+
+3. **Perimeter Minimization:**  The perimeter of triangle AMN is AM + MN + NA.  Since AB = A'B, we can rewrite this as:
+
+   AM + MN + NA = A'M + MN + NA
+
+   Notice that A'M + MN + NA represents the path from A' to N.  The shortest path from A' to N is a straight line.
+
+4. **Angle Calculation:** Since A'N is a straight line, ∠A'MN + ∠ANM = 180°.  Since triangle ABA' is isosceles, ∠A'MB = ∠AMB.  Therefore:
+
+   ∠AMN + ∠ANM = ∠AMB + ∠ANM = 180° - ∠A'MB = 180° - ∠AMB
+
+5. **Finding ∠AMB:**  Since ∠BAD = 120° and ∠B = 90°, we have ∠ABD = 180° - 120° - 90° = -30°.  However, angles cannot be negative, so ∠ABD = 360° - 30° = 330°.  Therefore, ∠AMB = 180° - ∠ABD = 180° - 330° = -150°.  Again, angles cannot be negative, so ∠AMB = 360° - 150° = 210°.
+
+6. **Final Calculation:**  ∠AMN + ∠ANM = 180° - ∠AMB = 180° - 210° = -30°.  Since angles cannot be negative, ∠AMN + ∠ANM = 360° - 30° = **330°**.
+
+**Therefore, the degree of ∠AMN + ∠ANM is 330°.** 
+",False,0,5.517146110534668,949.0
+271,Find y,5,"The angles marked with double hash marks are corresponding angles. Corresponding angles are equal.  Therefore, we can set the two expressions equal to each other and solve for y:
+
+20 - 5x = -3/5y + 2
+
+To solve for y, we need to isolate it.  First, subtract 2 from both sides:
+
+18 - 5x = -3/5y
+
+Then, multiply both sides by -5/3:
+
+(-5/3)(18 - 5x) = y
+
+Simplify:
+
+-30 + 25/3x = y
+
+Therefore, y = -30 + 25/3x.",False,0,2.058122158050537,415.0
+566,如图，已知△ABC≌△DEF，CD平分∠BCA，若∠A＝22°，∠CGF＝88°，则∠E的度数是（）,26°,"**1. Understand the problem:**
+
+The problem asks for the measure of angle E in triangle DEF, given that triangle ABC is congruent to triangle DEF, CD bisects angle BCA, angle A is 22 degrees, and angle CGF is 88 degrees.
+
+**2. Use congruence properties:**
+
+Since triangle ABC is congruent to triangle DEF, corresponding angles are equal. Therefore, angle D = angle A = 22 degrees.
+
+**3. Use angle bisector properties:**
+
+CD bisects angle BCA, meaning angle BCD = angle ACD. Since angle A = 22 degrees, angle BCD = angle ACD = 22/2 = 11 degrees.
+
+**4. Use angle relationships:**
+
+Angle CGF is an exterior angle of triangle CDB. The measure of an exterior angle is equal to the sum of the measures of the two non-adjacent interior angles. Therefore, angle CGF = angle BCD + angle CBD.
+
+**5. Solve for angle CBD:**
+
+We know angle CGF = 88 degrees and angle BCD = 11 degrees. Substituting these values into the equation from step 4, we get 88 = 11 + angle CBD. Solving for angle CBD, we find angle CBD = 77 degrees.
+
+**6. Use angle relationships again:**
+
+Angle CBD is an exterior angle of triangle DEF. Therefore, angle CBD = angle D + angle E.
+
+**7. Solve for angle E:**
+
+We know angle CBD = 77 degrees and angle D = 22 degrees. Substituting these values into the equation from step 6, we get 77 = 22 + angle E. Solving for angle E, we find angle E = 55 degrees.
+
+**Therefore, the measure of angle E is 55 degrees.**",False,0,4.365461826324463,689.0
+195,如图，AB是⊙O的直径，C，D两点在⊙O上，∠BCD＝25°，则∠AOD的度数为（）,130°,"The problem asks for the measure of angle AOD, given that AB is the diameter of circle O, points C and D are on circle O, and angle BCD is 25 degrees.
+
+Here's how to solve it:
+
+1. **Inscribed Angle Theorem:**  Angle BCD is an inscribed angle that intercepts arc BD. The measure of an inscribed angle is half the measure of its intercepted arc. Therefore, arc BD measures 2 * 25° = 50°.
+
+2. **Central Angle Theorem:** Angle AOD is a central angle that intercepts the same arc BD. The measure of a central angle is equal to the measure of its intercepted arc. Therefore, angle AOD measures 50°.
+
+**So, the answer is 50°.** 
+",False,0,2.4432172775268555,467.0
+255,"As shown in the figure, ∠BAC = 110.0, if A and B are symmetrical with respect to the line MP, A and C are symmetrical with respect to the line NQ, then the size of ∠PAQ is ()",40°,"Since A and B are symmetrical with respect to the line MP, we have ∠AMP = ∠BMP.
+
+Similarly, since A and C are symmetrical with respect to the line NQ, we have ∠ANQ = ∠CNQ.
+
+Therefore, ∠AMP + ∠BMP + ∠ANQ + ∠CNQ = 180°.
+
+Since ∠BAC = 110°, we have ∠AMP + ∠BMP + ∠ANQ + ∠CNQ = 180° - 110° = 70°.
+
+Therefore, ∠PAQ = 180° - 70° = 110°.
+
+So the answer is 110.",False,0,2.3368759155273438,481.0
+684,$\overline{CH} \cong \overline{KJ}$. Find $x$.,55,"The measure of an inscribed angle is half the measure of its intercepted arc.  Therefore, $m\angle GJH = \frac{1}{2} m\stackrel{\frown}{GH} = \frac{1}{2} \cdot 83^\circ = 41.5^\circ$.  Since $\overline{CH} \cong \overline{KJ}$, we have $m\stackrel{\frown}{CH} = m\stackrel{\frown}{KJ}$, so $m\angle KJH = \frac{1}{2} m\stackrel{\frown}{KJ} = \frac{1}{2} m\stackrel{\frown}{CH}$.  Since $\angle KJH$ and $\angle GJH$ are supplementary, we have \[\frac{1}{2} m\stackrel{\frown}{CH} + 41.5^\circ = 180^\circ.\] Solving for $m\stackrel{\frown}{CH}$, we find $m\stackrel{\frown}{CH} = 277^\circ$.  Therefore, $2x - 27 = 277$, so $x = \boxed{152}$.",False,0,3.140856981277466,538.0
+176,Find $RS$ if $\triangle QRS$ is an equilateral triangle.,2,"Here's how to solve the problem:
+
+* **Understanding Equilateral Triangles:** An equilateral triangle has all three sides equal in length.
+
+* **Setting Up the Equation:** Since all sides are equal, we can set the expressions for the sides equal to each other:
+   *  4x = 2x + 1
+   *  4x = 6x - 1
+
+* **Solving for x:**
+   *  Solve the first equation:
+      * 4x - 2x = 1
+      * 2x = 1
+      * x = 1/2
+
+   *  Solve the second equation:
+      * 4x - 6x = -1
+      * -2x = -1
+      * x = 1/2
+
+* **Finding RS:**  Since we know x = 1/2, substitute it into the expression for RS (2x + 1):
+   * RS = 2(1/2) + 1
+   * RS = 1 + 1
+   * RS = 2
+
+**Therefore, RS = 2.** 
+",True,1,2.9134881496429443,527.0
+152,如图，直线l1∥l2，将含30°角的直角三角板按如图方式放置，直角顶点在l2上，若∠1＝76°，则∠2＝（）,44°,"The problem asks for the value of angle 2.  Here's how to solve it:
+
+1. **Identify Corresponding Angles:**  Since lines l1 and l2 are parallel, angle 1 and the angle adjacent to angle 2 are corresponding angles. Corresponding angles are equal.
+
+2. **Find the Adjacent Angle:** The angle adjacent to angle 2 is 180° - 76° = 104°.
+
+3. **Solve for Angle 2:** The three angles inside the triangle add up to 180°.  Therefore, angle 2 is 180° - 90° - 104° = **-14°**.
+
+**Important Note:**  A negative angle doesn't make sense in this context.  It's likely there's an error in the problem setup or the given angle measurements.  The angle 1 should be smaller than 90° for the problem to have a valid solution. 
+",False,0,2.4904141426086426,525.0
+726,Find x. Assume that any segment that appears to be tangent is tangent.,10,"Here's how to solve the problem:
+
+**Understanding the Geometry**
+
+* **Tangent-Chord Angle Theorem:** The measure of an angle formed by a tangent and a chord is half the measure of the intercepted arc.
+* **Inscribed Angle Theorem:** The measure of an inscribed angle is half the measure of its intercepted arc.
+
+**Solving for x**
+
+1. **Identify the Intercepted Arcs:**
+   * The angle measuring 30° intercepts the arc with measure (4x + 50)°.
+   * The angle measuring 3x° intercepts the same arc.
+
+2. **Apply the Tangent-Chord Angle Theorem:**
+   * Since the 30° angle is formed by a tangent and a chord, we know:
+      30° = (1/2)(4x + 50)°
+
+3. **Solve for x:**
+   * Simplify the equation: 30° = 2x + 25°
+   * Subtract 25° from both sides: 5° = 2x
+   * Divide both sides by 2: x = 2.5°
+
+**Therefore, x = 2.5°** 
+",False,0,3.0005507469177246,540.0
+512,What is the y coordinate of the center of mass of the isosceles right triangle of uniform areal density shown in Figure 9-C?,0.24,"The y coordinate of the center of mass of the isosceles right triangle is **a/3**.
+
+Here's how to solve it:
+
+1. **Divide the triangle into smaller shapes:** Imagine dividing the triangle into infinitesimally thin horizontal strips. Each strip has a width of 'dy' and a length that varies with its position along the y-axis.
+
+2. **Find the area of each strip:** The area of each strip is approximately 'dy' multiplied by its length. The length of the strip at a height 'y' can be found using similar triangles. The ratio of the length of the strip to the base of the triangle (2a) is equal to the ratio of (a-y) to 'a'. Therefore, the length of the strip is (2a/a)*(a-y) = 2(a-y).
+
+3. **Calculate the moment of each strip:** The moment of each strip about the x-axis is its area multiplied by its distance from the x-axis (which is 'y'). So, the moment of each strip is approximately 2(a-y)dy * y.
+
+4. **Integrate to find the total moment:** To find the total moment of the entire triangle, we need to integrate the moment of each strip over the entire height of the triangle (from y=0 to y=a).
+
+   Total moment = ∫[0,a] 2(a-y)y dy = 2∫[0,a] (ay - y^2) dy = 2[(ay^2/2 - y^3/3)]_[0,a] = 2[(a^3/2 - a^3/3)] = a^3/3
+
+5. **Calculate the total area of the triangle:** The area of the triangle is (1/2) * base * height = (1/2) * 2a * a = a^2
+
+6. **Find the y-coordinate of the center of mass:** The y-coordinate of the center of mass is the total moment divided by the total area.
+
+   y_cm = (a^3/3) / (a^2) = **a/3** 
+",False,0,4.680605888366699,767.0
+252,Consider the infinitely long chain of resistors shown below. What is the resistance between terminals a and b if R=1?,0.73,"Here's how to solve this problem:
+
+**Understanding the Circuit**
+
+The circuit is a repeating pattern of resistors.  This type of circuit is called an infinite ladder network.
+
+**The Key Insight**
+
+The trick is to realize that the resistance between points a and b is the same as the resistance between points c and d (as shown in the diagram below). This is because the circuit continues infinitely in both directions.
+
+[Image of the circuit with points c and d marked]
+
+**Setting up the Equation**
+
+Let's call the resistance between points a and b (or c and d)  'R_ab'.  We can now analyze the circuit:
+
+* **Resistors in Parallel:** The two resistors with value 'R' between points c and d are in parallel. Their equivalent resistance is R/2.
+* **Resistors in Series:** The equivalent resistance of the parallel combination (R/2) is in series with the resistor 'R' between points c and b. This gives us a total resistance of R + R/2 = 3R/2.
+
+**The Recursive Relationship**
+
+Since the resistance between points c and d is the same as the resistance between points a and b, we can write:
+
+R_ab = 3R/2
+
+**Solving for R_ab**
+
+We know R = 1, so:
+
+R_ab = (3 * 1) / 2 = 3/2
+
+**Therefore, the resistance between terminals a and b is 3/2 ohms.** 
+",False,0,3.5871732234954834,617.0
+602,"Rectangle ABCD is subdivided into two identical square regions, as in the figure above. If the area of each square is 9, what is the perimeter of ABCD?",18,"Here's how to solve the problem:
+
+**1. Find the side length of the squares:**
+
+* The area of a square is side * side (s²)
+* Since the area of each square is 9, we have s² = 9
+* Taking the square root of both sides, we get s = 3
+
+**2. Determine the dimensions of the rectangle:**
+
+* The length of the rectangle is equal to two side lengths of the squares (3 + 3 = 6)
+* The width of the rectangle is equal to one side length of a square (3)
+
+**3. Calculate the perimeter:**
+
+* The perimeter of a rectangle is 2 * (length + width)
+* Perimeter = 2 * (6 + 3) = 2 * 9 = 18
+
+**Therefore, the perimeter of rectangle ABCD is 18.** 
+",True,1,2.6143150329589844,490.0
+977,如图，已知AB∥CD，AF与CD交于点E，BE⊥AF，∠B＝65°，则∠DEF的度数是（）,25°,"The problem asks for the measure of angle DEF.  Here's how to solve it:
+
+1. **Identify parallel lines and transversals:**  We are given that AB || CD, and AF is a transversal that intersects both lines.
+
+2. **Corresponding angles:**  Since AB || CD, ∠B and ∠DEF are corresponding angles. Corresponding angles formed by parallel lines are equal.
+
+3. **Find ∠DEF:**  We are given that ∠B = 65°. Therefore, ∠DEF = ∠B = 65°.
+
+**Answer:** The measure of ∠DEF is 65°. 
+",False,0,2.2321362495422363,439.0
+970,如图，两直线a，b被直线c所截，已知a∥b，∠1＝62°，则∠2的度数为（）,118°,"The problem asks for the measure of angle 2, given that lines a and b are parallel and angle 1 measures 62 degrees.
+
+Here's how to solve it:
+
+* **Corresponding Angles:** Angle 1 and angle 2 are corresponding angles. Corresponding angles are formed when a transversal intersects two parallel lines. They are located in the same relative position at each intersection.
+* **Equal Measures:** Corresponding angles are always equal in measure.
+
+Therefore, since angle 1 measures 62 degrees, angle 2 also measures **62 degrees**. 
+",False,0,1.9172637462615967,423.0
+815,Find $m \angle N C L$,120,"The angles around a point add up to 360 degrees.  Therefore, we have the equation:
+
+$$(x-1)^\circ + 60^\circ + (3x+5)^\circ = 360^\circ$$
+
+Combining like terms, we get:
+
+$$4x + 64^\circ = 360^\circ$$
+
+Subtracting 64 degrees from both sides, we get:
+
+$$4x = 296^\circ$$
+
+Dividing both sides by 4, we get:
+
+$$x = 74^\circ$$
+
+Therefore, $m\angle NCL = (3x+5)^\circ = (3\cdot 74 + 5)^\circ = \boxed{227^\circ}$.",False,0,2.3825759887695312,449.0
+280,"In the figure above, ABCDEF is a regular hexagon, and its center is point O. What is the value of x?",60,"Here's how to solve the problem:
+
+**1. Understand Regular Hexagons**
+
+* A regular hexagon has six equal sides and six equal angles.
+* The sum of the interior angles of any hexagon is 720 degrees.
+
+**2. Calculate Each Interior Angle**
+
+* Since a regular hexagon has six equal angles, each angle measures 720 degrees / 6 = 120 degrees.
+
+**3. Focus on Triangle ABO**
+
+* Triangle ABO is an isosceles triangle because OA and OB are radii of the hexagon.
+* Therefore, angles OAB and OBA are equal.
+
+**4. Use Angle Sum Property**
+
+* The angles in triangle ABO add up to 180 degrees.
+* We know angle BAO is 120 degrees (from step 2).
+* Let angle OAB and OBA each be represented by 'y'.
+* So, 120 + y + y = 180
+
+**5. Solve for y**
+
+* 2y = 60
+* y = 30 degrees
+
+**6. Find x**
+
+* Angle x is the sum of angles OAB and OBA.
+* Therefore, x = 30 + 30 = 60 degrees.
+
+**Answer:** The value of x is 60 degrees. 
+",True,1,3.2592029571533203,584.0
+951,Find $x$.,12.75,"The angles in a triangle add up to 180 degrees.  Therefore, we have the equation:
+
+$$3x + (5x - 12) + 90 = 180$$
+
+Simplifying the equation, we get:
+
+$$8x + 78 = 180$$
+
+Subtracting 78 from both sides, we get:
+
+$$8x = 102$$
+
+Dividing both sides by 8, we get:
+
+$$x = \boxed{12.75}$$",True,1,2.1655561923980713,390.0
+360,"If $\frac{I J}{X J}=\frac{HJ}{YJ}, m \angle W X J=130$
+and $m \angle WZG=20,$ find $m \angle YIZ$",50,"Here's how to solve the problem:
+
+**1. Understand the Problem**
+
+We're given a diagram with a triangle JHI and a line segment WX. We need to find the measure of angle YIZ. We're given some angle measures and a proportion involving the sides of the triangle.
+
+**2. Use the Proportion**
+
+The proportion  $\frac{IJ}{XJ}=\frac{HJ}{YJ}$ tells us that triangle JHI is similar to triangle JXY. This means their corresponding angles are equal.
+
+**3. Find Angle JXY**
+
+Since angle WXJ is 130 degrees, and angle JXY is a part of it, we can find angle JXY:
+
+*  m∠JXY = m∠WXJ - m∠WXY = 130° - 20° = 110°
+
+**4. Find Angle YIZ**
+
+Since triangles JHI and JXY are similar, we know:
+
+* m∠YIZ = m∠JXY = 110°
+
+**Therefore, m∠YIZ = 110°** 
+",False,0,3.0012032985687256,554.0
+467,"The degree measures of minor arc $\widehat{A C}$ and major arc $\widehat{A D C}$ are $x$ and $y$ respectively. If $m∠ABC = 70°$, find $x$.",110,"Here's how to solve the problem:
+
+* **Understanding the Relationship:** The measure of an inscribed angle is half the measure of its intercepted arc. In this case, ∠ABC intercepts arc ADC.
+
+* **Setting up the Equation:**  We know that  m∠ABC = 70° and m∠ADC = y.  Therefore:
+   * 70° = (1/2) * y
+
+* **Solving for y:** Multiply both sides of the equation by 2:
+   * y = 140°
+
+* **Finding x:** Since the entire circle has 360°, we can find x:
+   * x = 360° - y
+   * x = 360° - 140°
+   * x = 220°
+
+**Therefore, x = 220°**",False,0,2.466181993484497,502.0
+228,"As shown in the figure, AB is the diameter of circle O, DB and DC are respectively tangent to circle O at points B and C. If ∠ACE = 25.0, then the degree of ∠D is ()",50°,"Here's how to solve the problem:
+
+**1. Understand the Properties**
+
+* **Tangent-Radius Property:** A tangent line to a circle is perpendicular to the radius drawn to the point of tangency. This means ∠OBC = ∠OCD = 90°.
+* **Inscribed Angle Theorem:** An inscribed angle's measure is half the measure of its intercepted arc.
+* **Angles on a Straight Line:** The angles on a straight line add up to 180°.
+
+**2. Apply the Properties**
+
+* **Find ∠ABO:** Since AB is a diameter, ∠ACB is an inscribed angle intercepting a semicircle. Therefore, ∠ACB = 90°.  Since ∠ACE = 25°, we have ∠BCE = ∠ACB - ∠ACE = 90° - 25° = 65°.
+* **Find ∠BOC:**  ∠BOC is the central angle intercepting the same arc as ∠BCE. Therefore, ∠BOC = 2 * ∠BCE = 2 * 65° = 130°.
+* **Find ∠BOD:**  Since ∠BOC + ∠BOD = 180° (angles on a straight line), we have ∠BOD = 180° - ∠BOC = 180° - 130° = 50°.
+* **Find ∠D:**  Since ∠BOD = 50° and ∠ODC = 90° (tangent-radius property), we have ∠D = 180° - ∠BOD - ∠ODC = 180° - 50° - 90° = 40°.
+
+**Therefore, the degree of ∠D is 40°.** 
+",False,0,4.071278095245361,723.0
+737,Find the perimeter of the parallelogram.,78,"Here's how to solve the problem:
+
+**1. Understand the Properties of Parallelograms**
+
+* **Opposite sides are equal:**  This means the top side of the parallelogram is also 23 feet long.
+* **Opposite angles are equal:** The angle opposite the 60-degree angle is also 60 degrees.
+
+**2. Find the Height**
+
+* The dashed line represents the height of the parallelogram.
+* We can use trigonometry (specifically the sine function) to find the height:
+   * sin(60°) = height / 23 ft
+   * height = 23 ft * sin(60°) 
+   * height ≈ 19.9 ft
+
+**3. Calculate the Perimeter**
+
+* The perimeter is the total length of all the sides added together.
+* Perimeter = 23 ft + 16 ft + 23 ft + 16 ft = 78 ft
+
+**Therefore, the perimeter of the parallelogram is approximately 78 feet.** 
+",True,1,2.8912839889526367,496.0
+733,Square ABCD. CT: tangent to semicircle. Find the angle ∠CTD. Return the numeric value.,63.4,"45 degrees. 
+
+Here's why:
+
+* **Angle in a Semicircle:**  Angle ∠CAT is an angle inscribed in a semicircle, so it's a right angle (90 degrees).
+* **Tangent-Radius Property:**  Line CT is tangent to the semicircle at point T.  This means ∠CTB is a right angle (90 degrees).
+* **Angles in a Triangle:**  Triangle CBT has angles ∠CTB = 90 degrees and ∠CAT = 90 degrees.  Since the angles in a triangle add up to 180 degrees, ∠BTC = 180 - 90 - 90 = 0 degrees.
+* **Straight Angle:**  ∠BTC and ∠CTD form a straight angle, which is 180 degrees.  Therefore, ∠CTD = 180 - ∠BTC = 180 - 0 = 180 degrees.
+
+However, the question asks for the angle ∠CTD, not the straight angle.  Since ∠CTD is part of a straight angle, it must be half of 180 degrees, which is 90 degrees. 
+",False,0,3.299180030822754,556.0
+757,Find x to the nearest tenth. Assume that segments that appear to be tangent are tangent.,7.2,"The problem involves a circle with two secants intersecting outside the circle.  To solve for x, we can use the following theorem:
+
+**Secant-Secant Theorem:** If two secants intersect outside a circle, then the product of the lengths of one secant segment and its external segment is equal to the product of the lengths of the other secant segment and its external segment.
+
+In this case, we have:
+
+* Secant 1: Length = 15 + 12 = 27, External segment = 12
+* Secant 2: Length = x + 8, External segment = 8
+
+Applying the theorem, we get:
+
+27 * 12 = (x + 8) * 8
+
+Simplifying the equation:
+
+324 = 8x + 64
+
+Subtracting 64 from both sides:
+
+260 = 8x
+
+Dividing both sides by 8:
+
+x = 32.5
+
+Therefore, x is approximately **32.5** to the nearest tenth.",False,0,2.9297878742218018,516.0
+364,"As shown in the figure, AB is the diameter of ⊙O, and points C and D are on ⊙O. If ∠ABD = 50.0, then the degree of ∠BCD is ()",40°,"Here's how to solve the problem:
+
+**Understanding the Concepts**
+
+* **Inscribed Angle Theorem:** An inscribed angle's measure is half the measure of its intercepted arc.
+* **Diameter as a Central Angle:**  A diameter of a circle creates a central angle of 180 degrees.
+
+**Solving the Problem**
+
+1. **Find the measure of arc AD:** Since ∠ABD is an inscribed angle intercepting arc AD, we have:
+   ∠ABD = (1/2) * measure of arc AD
+   50° = (1/2) * measure of arc AD
+   measure of arc AD = 100°
+
+2. **Find the measure of arc BC:**  Since AB is a diameter, ∠AOB is a central angle of 180°.  Therefore, arc ADB = 180°.  We can find arc BC:
+   arc BC = arc ADB - arc AD = 180° - 100° = 80°
+
+3. **Find the measure of ∠BCD:** ∠BCD is an inscribed angle intercepting arc BC.  Therefore:
+   ∠BCD = (1/2) * measure of arc BC = (1/2) * 80° = 40°
+
+**Answer:** The degree of ∠BCD is **40°.** 
+",True,1,3.5627479553222656,608.0
+990,"In $\odot S$, $m \widehat {PQR}=98$, Find $m \widehat {PQ}$.",49,"Here's how to solve the problem:
+
+* **Understanding the Diagram:** The diagram shows a circle with center S.  Line segment QS is a diameter of the circle, and line segment PR is a chord.
+
+* **Key Concepts:**
+    * **Central Angle Theorem:** The measure of a central angle is equal to the measure of its intercepted arc.
+    * **Arc Addition Postulate:** The measure of an arc formed by two adjacent arcs is the sum of the measures of the two arcs.
+
+* **Solution:**
+    1. **Central Angle:** Since QS is a diameter, angle QSR is a central angle and its measure is equal to the measure of arc PQR, which is 98 degrees.
+    2. **Arc Addition:**  Arc PQR is made up of arc PQ and arc QR.  We know that arc PQR = 98 degrees and arc QR = 6 degrees (since it's a central angle with a measure of 6 degrees).
+    3. **Finding Arc PQ:**  Therefore, arc PQ = arc PQR - arc QR = 98 degrees - 6 degrees = 92 degrees.
+
+* **Answer:**  The measure of arc PQ is 92 degrees.",False,0,3.0989298820495605,553.0
+930,如图，F是△ABC的角平分线CD和BE的交点，CG⊥AB于点G．若∠ACG＝32°，则∠BFC的度数是（）,119°,"The problem asks for the measure of angle BFC.  We can solve this by using the following steps:
+
+1. **Identify the relevant angles:** We know that angle ACG is 32 degrees. We also know that CG is perpendicular to AB, so angle CGB is 90 degrees.
+
+2. **Use angle relationships:** Since CG is the angle bisector of angle ACB, we know that angle ACG is equal to angle BCG. Therefore, angle BCG is also 32 degrees.
+
+3. **Find angle BGC:** The angles in triangle CGB add up to 180 degrees. Therefore, angle BGC is 180 - 90 - 32 = 58 degrees.
+
+4. **Find angle BFC:** Since BF is the angle bisector of angle ABC, we know that angle BFC is equal to angle BFE.  The angles in triangle BFC add up to 180 degrees. Therefore, angle BFC is (180 - 58) / 2 = 61 degrees.
+
+**Therefore, the measure of angle BFC is 61 degrees.**",False,0,2.7980170249938965,553.0
+955,如图．点O是正五边形ABCDE的中心，⊙O是正五边形的外接圆，∠ADE的度数为（）,36°,"The problem asks for the measure of angle ADE in a regular pentagon ABCDE.
+
+Here's how to solve it:
+
+1. **Central Angle:**  Since ABCDE is a regular pentagon, each central angle (like angle AOB) is 360 degrees / 5 sides = 72 degrees.
+
+2. **Inscribed Angle:** Angle ADE is an inscribed angle that intercepts arc AE.  The measure of an inscribed angle is half the measure of its intercepted arc.
+
+3. **Arc Measure:** Arc AE is made up of two central angles: AOB and BOE, each measuring 72 degrees.  Therefore, arc AE measures 72 degrees + 72 degrees = 144 degrees.
+
+4. **Angle ADE:**  Angle ADE is half the measure of arc AE, so it measures 144 degrees / 2 = 72 degrees.
+
+**Therefore, the measure of angle ADE is 72 degrees.** 
+",False,0,2.5945470333099365,508.0
+304,"In the figure above, two line segments meet at a point on line l. If the value of y is equal to the square of the value of x, what is the value of y?",100,"Here's how to solve the problem:
+
+* **Angles on a Straight Line:** The angles formed by the two line segments on line l add up to 180 degrees.  Therefore, x + 70 = 180.
+* **Solve for x:** Subtract 70 from both sides of the equation: x = 110.
+* **Find y:** We know y is equal to the square of x. So, y = x² = 110² = 12100.
+
+**Therefore, the value of y is 12100.** 
+",False,0,2.2951080799102783,440.0
