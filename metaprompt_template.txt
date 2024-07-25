@@ -13,8 +13,18 @@ Each prompt was used together with an image that depicts a math problem.
 Write a new prompt that will achieve an accuracy as high as possible and that is different from the old ones.
 </TASK>
 
+<HUMAN_FEEDBACK>
+{human_feedback}
+</HUMAN_FEEDBACK>
+
 <RULES>
 - It is very important that the new prompt is distinct from ALL the old ones!
-- Write your text in square brackets. Use only plain text for the prompt text and do not add any markdown (i.e. no hashtags, backticks, quotes, etc).
-- Use common techniques (chain of thought, etc) to try to improve the prompt.
+- Ensure that you analyse the prompts with a high accuracy and reuse the patterns that worked in the past
+- Ensure that you analyse the prompts with a low accuracy and avoid the patterns that didn't worked in the past
+- Think out loud before creating the prompt. Describe what has worked in the past and what hasn't. Only then create the new prompt.
+- Use all available information like prompt length, formal/informal use of language, etc for your analysis.
+- Take inspiration particularly from prompts which scored an accuracy of 0.5 and higher. 0.5 is the threshold that divides good from subotimal prompts.
+- Be creative, try out different ways of prompting the model. You may even come up with hypothetical scenarios that might improve the accuracy.
+- Write your new prompt in square brackets. Use only plain text for the prompt text and do not add any markdown (i.e. no hashtags, backticks, quotes, etc).
+- IMPORTANT: The user might also have provided human feedback in the <HUMAN_FEEDBACK> section above. If they did, please take this feedback seriously and incorporate it in your thoughts and when creating a new prompt!
 </RULES>
