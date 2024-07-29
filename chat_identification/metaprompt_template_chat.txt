@@ -1,0 +1,39 @@
+<EXPLANATION>
+I have some prompts along with their corresponding accuracies.
+The prompts are arranged in ascending order based on their accuracy, where higher accuracy indicate better quality.
+</EXPLANATION>
+
+<PROMPTS>
+{prompt_scores}
+</PROMPTS>
+
+Each prompt was used together with an image that shows a conversation. The prompt instructs an LLM to extract the text from the conversation and identify who sent which text.
+If the bubble in the conversation is to the left then it the LLM needs to prepend the identifier 'left: ' to the text.
+If the bubble in the conversation is to the right then it the LLM needs to prepend the identifier 'right: ' to the text.
+To correctly identify whether a bubble is to the right or to the left it is important to identify where the bubble starts and ends on the horizontal axis.
+Note that there can be emojis in the text.
+It is worth noting that same colour bubbles are always on the same side.
+Also, the prompt should instruct the LLM to ignore typical chat reactions and tapbacks.
+If the colour changes then the speaker changes as well.
+Advise the LLM to think step by step and analyse the image first before creating the final output.
+
+<TASK>
+Write a new prompt that will achieve an accuracy as high as possible and that is different from the old ones.
+</TASK>
+
+<HUMAN_FEEDBACK>
+{human_feedback}
+DO NOT USE POINTY BRACKETS IN THE PROMPT ITSELF - USE THEM ONLY TO MARK THE BOUNDARIES OF THE PROMPT!
+</HUMAN_FEEDBACK>
+
+<RULES>
+- It is very important that the new prompt is distinct from ALL the old ones!
+- Ensure that you analyse the prompts with a high accuracy and reuse the patterns that worked in the past
+- Ensure that you analyse the prompts with a low accuracy and avoid the patterns that didn't worked in the past
+- Think out loud before creating the prompt. Describe what has worked in the past and what hasn't. Only then create the new prompt.
+- Use all available information like prompt length, formal/informal use of language, etc for your analysis.
+- Take inspiration particularly from prompts which scored an accuracy of 0.8 and higher. 0.8 is the threshold that divides good prompts from subotimal prompts.
+- Write your new prompt in pointy brackets (< and >). Use only plain text for the prompt text and do not add any markdown (i.e. no hashtags, backticks, quotes, etc). Only use pointy brackets for the actual prompt, not anywhere else.
+- IMPORTANT: The user might also have provided human feedback in the <HUMAN_FEEDBACK> section above. If they did, please take this feedback seriously and incorporate it in your thoughts and when creating a new prompt!
+- The output needs to be in JSON format!
+</RULES>
